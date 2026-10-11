@@ -1,0 +1,37 @@
+﻿topic_id,topic_name,index_type,feature_variant,prediction_count,status,model_mae,model_rmse,zero_mae,zero_rmse,train_mean_mae,train_mean_rmse,oos_r2_vs_zero,oos_r2_vs_train_mean,direction_accuracy_excluding_actual_zeros,direction_denominator,actual_zero_count,beats_zero_rmse,beats_train_mean_rmse
+0,"AI, Datacenters, and Digital Governance",democrat_stance,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+0,"AI, Datacenters, and Digital Governance",democrat_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+2,"Trade, Public Health, and Legal Rights",democrat_stance,level,18,completed,0.009864052465869591,0.013103296882152334,0.008888888888888898,0.013743685418725548,0.010044378788596337,0.013288368118190282,0.09101911609623248,0.027660652093412508,0.7,10.0,8.0,True,True
+2,"Trade, Public Health, and Legal Rights",democrat_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+3,"Iran War, Oil, and Energy Security",democrat_stance,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+3,"Iran War, Oil, and Energy Security",democrat_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,level,5,completed,0.008625341743528156,0.009469907852815429,0.008000000000000007,0.008944271909999166,0.008590176671841764,0.009418651575795063,-0.12098943426018938,-0.010913610057428746,0.5,4.0,1.0,False,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+5,Defense Spending and Military Security,democrat_stance,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+5,Defense Spending and Military Security,democrat_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+0,"AI, Datacenters, and Digital Governance",republican_stance,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+0,"AI, Datacenters, and Digital Governance",republican_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+2,"Trade, Public Health, and Legal Rights",republican_stance,level,33,completed,0.00914620615759662,0.014190111839179283,0.008484848484848487,0.014564381625088385,0.009035738968088446,0.014094096856688599,0.050734851103181766,-0.013671259807549685,0.75,16.0,17.0,True,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,change,16,completed,0.011480132037738733,0.015538678590194501,0.01125000000000001,0.01581138830084191,0.01136051679392443,0.015683695365331284,0.034197870682525666,0.01840718460690438,0.6,10.0,6.0,True,True
+3,"Iran War, Oil, and Energy Security",republican_stance,level,10,completed,0.010372467463647929,0.013642685536018587,0.010000000000000009,0.013416407864998751,0.010483057206982987,0.013723302763844439,-0.034015936859391305,0.01171444471927685,0.42857142857142855,7.0,3.0,False,True
+3,"Iran War, Oil, and Energy Security",republican_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+4,"Immigration, Public Funding, and Household Economy",republican_stance,level,17,completed,0.010920642835794381,0.016581531737554642,0.010000000000000002,0.01590412451128914,0.01067135724614101,0.01588658674510226,-0.0870005374372198,-0.08940181897706401,0.45454545454545453,11.0,6.0,False,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+5,Defense Spending and Military Security,republican_stance,level,8,completed,0.010214290394413949,0.013629738879040548,0.008750000000000008,0.012747548783981974,0.009611919657149148,0.013530433161834214,-0.14319865791279462,-0.014732734699361094,0.6,5.0,3.0,False,False
+5,Defense Spending and Military Security,republican_stance,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,level,0,insufficient_training_pairs,,,,,,,,,,,,,
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,change,0,insufficient_training_pairs,,,,,,,,,,,,,
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,level,44,completed,0.00943893672934057,0.014079578790553986,0.008863636363636367,0.014222261679238195,0.009380339875766358,0.014001739429357764,0.019964077252317303,-0.011149432733849718,0.625,24.0,20.0,True,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,change,31,completed,0.009606689934849064,0.013314906013021006,0.009032258064516135,0.013440430100644952,0.009391067456232338,0.0133482093001693,0.01859135960659608,0.004983700984479977,0.5,18.0,13.0,True,True
+3,"Iran War, Oil, and Energy Security",topic_sentiment,level,26,completed,0.010604025995916682,0.01527934025164927,0.009230769230769233,0.015191090506254997,0.009661939582764333,0.015309635115320522,-0.011652366944568504,0.0039537049118586465,0.5714285714285714,14.0,12.0,False,True
+3,"Iran War, Oil, and Energy Security",topic_sentiment,change,6,completed,0.010612296848228656,0.014252032528977967,0.010000000000000009,0.014142135623730965,0.010309438927085994,0.014532333742990794,-0.015602156035228631,0.03820418371365153,0.5,4.0,2.0,False,True
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,level,32,completed,0.010344597680900004,0.01535819357445727,0.009687500000000005,0.015512092057488573,0.010231608281148996,0.0154037596063141,0.01974395897973813,0.005907471724823088,0.5555555555555556,18.0,14.0,True,True
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,change,14,completed,0.01115902337783429,0.014414646010342673,0.010000000000000009,0.014142135623730965,0.010836536255267112,0.014278147510833792,-0.0389100980174375,-0.019211310067914544,0.5555555555555556,9.0,5.0,False,False
+5,Defense Spending and Military Security,topic_sentiment,level,26,completed,0.010758746082753326,0.016348331624657347,0.010384615384615388,0.016290629680421054,0.010677864896425089,0.016324983699613174,-0.007096611544066711,-0.0028624372958203637,0.4,15.0,11.0,False,False
+5,Defense Spending and Military Security,topic_sentiment,change,5,completed,0.00812578723408534,0.00908089449328584,0.008000000000000007,0.008944271909999166,0.008117535650623894,0.009080804325178682,-0.03078305997736175,-1.9859155993895428e-05,0.5,4.0,1.0,False,False

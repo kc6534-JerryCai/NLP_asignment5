@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-10-10T19:23:05.075787+00:00",
+  "frozen_stocks": 1000,
+  "downloaded_stocks": 999,
+  "testable_stocks": 998,
+  "main_index_count": 18,
+  "valid_main_tests": 9976,
+  "insufficient_main_tests": 7988,
+  "fdr_significant_q_lt_0_05": 346,
+  "fdr_significant_and_block_bootstrap_ci_excludes_zero": 161,
+  "exploratory_q_0_05_to_0_10": 130,
+  "nominal_only": 759,
+  "oos_evaluable_models": 4986,
+  "oos_beats_both_rmse_benchmarks": 565,
+  "basket_fdr_significant": 2,
+  "validation_status": "pass"
+}

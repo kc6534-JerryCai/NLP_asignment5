@@ -1,0 +1,142 @@
+[
+  {
+    "start_ts": 1783656000,
+    "end_ts": 1784260800,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1783656000_1784260800_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1784260800,
+    "end_ts": 1784865600,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1784260800_1784865600_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1784865600,
+    "end_ts": 1785470400,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1784865600_1785470400_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1785470400,
+    "end_ts": 1786075200,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1785470400_1786075200_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1786075200,
+    "end_ts": 1786680000,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1786075200_1786680000_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1786680000,
+    "end_ts": 1787284800,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1786680000_1787284800_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1787284800,
+    "end_ts": 1787889600,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1787284800_1787889600_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1787889600,
+    "end_ts": 1788494400,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1787889600_1788494400_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1788494400,
+    "end_ts": 1789099200,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1788494400_1789099200_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1789099200,
+    "end_ts": 1789704000,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1789099200_1789704000_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1789704000,
+    "end_ts": 1790308800,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1789704000_1790308800_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1790308800,
+    "end_ts": 1790913600,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1790308800_1790913600_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1790913600,
+    "end_ts": 1791518400,
+    "duration_hours": 168.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1790913600_1791518400_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  },
+  {
+    "start_ts": 1791518400,
+    "end_ts": 1791604800,
+    "duration_hours": 24.0,
+    "raw_path": "C:/Users/Jerry Cai/Desktop/Assignment5/data/polymarket/raw/history_1791518400_1791604800_f60.json",
+    "status": "cached",
+    "request_meta": {
+      "cache_hit": true
+    }
+  }
+]

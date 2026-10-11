@@ -1,0 +1,81 @@
+{
+  "created_at_utc": "2026-10-10T19:01:04.423088+00:00",
+  "frozen_before_price_download": true,
+  "selection_used_research_returns": false,
+  "candidate_union_count": 1039,
+  "frozen_count": 1000,
+  "target_max": 1000,
+  "policy_mapping_tickers": [
+    "AMZN",
+    "BA",
+    "CAT",
+    "COP",
+    "CVS",
+    "CVX",
+    "CXW",
+    "DG",
+    "FDX",
+    "GD",
+    "GEO",
+    "GOOGL",
+    "HAL",
+    "JNJ",
+    "KR",
+    "LHX",
+    "LMT",
+    "META",
+    "MLM",
+    "MSFT",
+    "NOC",
+    "NUE",
+    "NVDA",
+    "ORCL",
+    "OXY",
+    "PFE",
+    "PWR",
+    "RTX",
+    "SLB",
+    "TGT",
+    "UNH",
+    "UPS",
+    "URI",
+    "VMC",
+    "WMT",
+    "XOM"
+  ],
+  "sources": {
+    "sp500": {
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+      "cache_path": "data\\equity_sentiment\\universe_sources\\sp500.html",
+      "cache_hit": true,
+      "retrieved_at_utc": "2026-10-10T19:01:04.285088+00:00",
+      "sha256": "702afab503d0321ae95b829b8cc9ec47c49cf7451a1088b6cbd82d942c7652f1",
+      "list_date": "download date/current Wikipedia table",
+      "parsed_rows": 503
+    },
+    "nasdaq100": {
+      "url": "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+      "cache_path": "data\\equity_sentiment\\universe_sources\\nasdaq100.json",
+      "cache_hit": true,
+      "retrieved_at_utc": "2026-10-10T19:01:04.285088+00:00",
+      "sha256": "c6dddfa8f73b9827e9252fd8766aa215118db45255af0bdfcfbe30d8cc46fa4b",
+      "list_date": "Oct 8, 2026",
+      "parsed_rows": 101,
+      "source_type": "official Nasdaq public JSON endpoint"
+    },
+    "iwb": {
+      "url": "https://www.ishares.com/us/products/239707/ishares-russell-1000-etf/latest-holdings.csv",
+      "cache_path": "data\\equity_sentiment\\universe_sources\\iwb_holdings.csv",
+      "cache_hit": true,
+      "retrieved_at_utc": "2026-10-10T19:01:04.286090+00:00",
+      "sha256": "0e5c0feeb6834297df12bb578a0abc9aa0798d170930e254f5025bf16eb19ded",
+      "list_date": "Oct 08, 2026",
+      "parsed_equity_rows": 1023,
+      "proxy_for": "Russell 1000 constituents; ETF holdings are not the licensed index list"
+    }
+  },
+  "limitations": [
+    "Current/near-current public lists may create survivorship bias.",
+    "IWB holdings are a transparent proxy for, not the licensed Russell 1000 constituent file."
+  ]
+}

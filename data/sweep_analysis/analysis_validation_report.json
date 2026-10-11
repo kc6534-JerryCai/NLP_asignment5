@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-10-10T18:41:44.208730+00:00",
+  "validation_status": "pass",
+  "checks": {
+    "market_id_matches": true,
+    "yes_token_matches": true,
+    "hourly_rows_in_requested_range": true,
+    "hourly_probabilities_in_range": true,
+    "hourly_timestamps_unique": true,
+    "daily_has_92_rows": true,
+    "aligned_unique_key": true,
+    "aligned_expected_rows": true,
+    "no_diff_across_missing_calendar_days": true,
+    "walk_forward_is_causal": true,
+    "download_segments_at_most_7_days": true,
+    "api_appended_records_outside_segments": true,
+    "market_resolution_rules_saved": true,
+    "out_of_range_api_records_removed": 14,
+    "manual_correlation_recalculation": {
+      "status": "pass",
+      "topic_id": 2,
+      "effective_n": 61,
+      "independent": 0.1702262705398336,
+      "output": 0.1702262705398336
+    },
+    "manual_walk_forward_recalculation": {
+      "status": "pass",
+      "topic_id": 2,
+      "index_type": "democrat_stance",
+      "feature_variant": "level",
+      "feature_date": "2026-08-28",
+      "training_pairs": 30,
+      "independent_prediction": 0.0024138819198161973,
+      "output_prediction": 0.0024138819198161973
+    }
+  },
+  "notes": [
+    "Missing values remain missing; no price or sentiment series is filled with zero.",
+    "Daily differences are computed before complete-case filtering, on the full 92-day calendar.",
+    "Walk-forward training uses feature dates strictly earlier than each prediction feature date."
+  ]
+}

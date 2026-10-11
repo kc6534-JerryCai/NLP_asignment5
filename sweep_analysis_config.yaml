@@ -1,0 +1,57 @@
+project:
+  timezone: America/New_York
+  start_local: '2026-07-10 00:00:00'
+  end_local_exclusive: '2026-10-10 00:00:00'
+  start_ts: 1783656000
+  end_ts: 1791604800
+  sentiment_dir: data/policy_sentiment
+  polymarket_dir: data/polymarket
+  analysis_dir: data/sweep_analysis
+  figure_dir: figures/sweep_analysis
+
+market:
+  event_slug: balance-of-power-2026-midterms
+  event_url: https://gamma-api.polymarket.com/events/slug/balance-of-power-2026-midterms
+  history_url: https://clob.polymarket.com/prices-history
+  market_id: '562828'
+  question: '2026 Balance of Power: D Senate, D House'
+  group_item_title: Democrats Sweep
+  expected_yes_token: '34722410608062854697106861099776685947172185964394483545370684749662285977831'
+  fidelity_minutes: 60
+  segment_days: 7
+  minimum_segment_hours: 24
+  timeout_seconds: 30
+  max_retries: 3
+  backoff_seconds: 2.0
+  stale_after_hours: 3.0
+
+analysis:
+  section_group: All
+  bootstrap_repetitions: 1000
+  bootstrap_block_days: 7
+  random_seed: 42
+  minimum_correlation_n: 5
+  reliable_inference_n: 20
+  bh_alpha: 0.05
+  minimum_training_pairs: 30
+  weekly_minimum_market_days: 3
+
+topics:
+  - topic_id: 0
+    name_en: AI, Datacenters, and Digital Governance
+    name_zh: AI、数据中心与数字治理
+  - topic_id: 1
+    name_en: Infrastructure, Public Lands, and Federal Investment
+    name_zh: 基础设施、公共土地与联邦投资
+  - topic_id: 2
+    name_en: Trade, Public Health, and Legal Rights
+    name_zh: 贸易、公共卫生与法律权利
+  - topic_id: 3
+    name_en: Iran War, Oil, and Energy Security
+    name_zh: 伊朗战争、石油与能源安全
+  - topic_id: 4
+    name_en: Immigration, Public Funding, and Household Economy
+    name_zh: 移民、公共资金与家庭经济
+  - topic_id: 5
+    name_en: Defense Spending and Military Security
+    name_zh: 国防开支与军事安全

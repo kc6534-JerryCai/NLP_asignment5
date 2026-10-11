@@ -1,0 +1,151 @@
+﻿topic_id,english_name,chinese_name,rank,keyword,weight
+0,Senate Succession and Political Movements,参议院继任与政治运动,1,graham,0.009318754076957703
+0,Senate Succession and Political Movements,参议院继任与政治运动,2,state,0.008637207560241222
+0,Senate Succession and Political Movements,参议院继任与政治运动,3,win,0.008119265548884869
+0,Senate Succession and Political Movements,参议院继任与政治运动,4,senate,0.006875070743262768
+0,Senate Succession and Political Movements,参议院继任与政治运动,5,south_carolina,0.006860941648483276
+0,Senate Succession and Political Movements,参议院继任与政治运动,6,republican,0.006208317819982767
+0,Senate Succession and Political Movements,参议院继任与政治运动,7,voter,0.005829412490129471
+0,Senate Succession and Political Movements,参议院继任与政治运动,8,president,0.005787339061498642
+0,Senate Succession and Political Movements,参议院继任与政治运动,9,run,0.005581040401011705
+0,Senate Succession and Political Movements,参议院继任与政治运动,10,campaign,0.005540183745324612
+0,Senate Succession and Political Movements,参议院继任与政治运动,11,party,0.005221218802034855
+0,Senate Succession and Political Movements,参议院继任与政治运动,12,democrats,0.004849539138376713
+0,Senate Succession and Political Movements,参议院继任与政治运动,13,election,0.004567647352814674
+0,Senate Succession and Political Movements,参议院继任与政治运动,14,candidate,0.004557694774121046
+0,Senate Succession and Political Movements,参议院继任与政治运动,15,vote,0.004477499984204769
+1,Iran War and Foreign Policy,伊朗战争与外交政策,1,iran,0.015377146191895008
+1,Iran War and Foreign Policy,伊朗战争与外交政策,2,war,0.009447099640965462
+1,Iran War and Foreign Policy,伊朗战争与外交政策,3,president,0.007289692293852568
+1,Iran War and Foreign Policy,伊朗战争与外交政策,4,attack,0.005492366384714842
+1,Iran War and Foreign Policy,伊朗战争与外交政策,5,iranian,0.004381763283163309
+1,Iran War and Foreign Policy,伊朗战争与外交政策,6,military,0.004256929736584425
+1,Iran War and Foreign Policy,伊朗战争与外交政策,7,strike,0.003929360769689083
+1,Iran War and Foreign Policy,伊朗战争与外交政策,8,deal,0.003736352315172553
+1,Iran War and Foreign Policy,伊朗战争与外交政策,9,world,0.0034427987411618233
+1,Iran War and Foreign Policy,伊朗战争与外交政策,10,israel,0.003395168110728264
+1,Iran War and Foreign Policy,伊朗战争与外交政策,11,state,0.0033467034809291363
+1,Iran War and Foreign Policy,伊朗战争与外交政策,12,donald_trump,0.003110812045633793
+1,Iran War and Foreign Policy,伊朗战争与外交政策,13,continue,0.003071756800636649
+1,Iran War and Foreign Policy,伊朗战争与外交政策,14,tehran,0.0029262297321110964
+1,Iran War and Foreign Policy,伊朗战争与外交政策,15,try,0.0029203302692621946
+2,Justice Department and Executive Oversight,司法部与行政监督,1,president,0.011767209507524967
+2,Justice Department and Executive Oversight,司法部与行政监督,2,blanche,0.011597923003137112
+2,Justice Department and Executive Oversight,司法部与行政监督,3,state,0.007977371104061604
+2,Justice Department and Executive Oversight,司法部与行政监督,4,vote,0.007522141095250845
+2,Justice Department and Executive Oversight,司法部与行政监督,5,fund,0.004983437247574329
+2,Justice Department and Executive Oversight,司法部与行政监督,6,election,0.004670865833759308
+2,Justice Department and Executive Oversight,司法部与行政监督,7,justice_department,0.004335726611316204
+2,Justice Department and Executive Oversight,司法部与行政监督,8,attorney_general,0.004147601779550314
+2,Justice Department and Executive Oversight,司法部与行政监督,9,white_house,0.004055095836520195
+2,Justice Department and Executive Oversight,司法部与行政监督,10,donald_trump,0.0039668516255915165
+2,Justice Department and Executive Oversight,司法部与行政监督,11,committee,0.0038836009334772825
+2,Justice Department and Executive Oversight,司法部与行政监督,12,claim,0.00363974180072546
+2,Justice Department and Executive Oversight,司法部与行政监督,13,ossoff,0.003556122537702322
+2,Justice Department and Executive Oversight,司法部与行政监督,14,ask,0.0035279246512800455
+2,Justice Department and Executive Oversight,司法部与行政监督,15,department,0.0033264649100601673
+3,Election Administration and Voting Rights,选举管理与投票权,1,election,0.023777170106768608
+3,Election Administration and Voting Rights,选举管理与投票权,2,state,0.014456471428275108
+3,Election Administration and Voting Rights,选举管理与投票权,3,president,0.010517459362745285
+3,Election Administration and Voting Rights,选举管理与投票权,4,voter,0.008906583301723003
+3,Election Administration and Voting Rights,选举管理与投票权,5,administration,0.007363512646406889
+3,Election Administration and Voting Rights,选举管理与投票权,6,vote,0.006047968752682209
+3,Election Administration and Voting Rights,选举管理与投票权,7,white_house,0.006011560093611479
+3,Election Administration and Voting Rights,选举管理与投票权,8,federal,0.005826958455145359
+3,Election Administration and Voting Rights,选举管理与投票权,9,trump_administration,0.005122037138789892
+3,Election Administration and Voting Rights,选举管理与投票权,10,ballot,0.005106593016535044
+3,Election Administration and Voting Rights,选举管理与投票权,11,rule,0.004930878523737192
+3,Election Administration and Voting Rights,选举管理与投票权,12,order,0.004765418823808432
+3,Election Administration and Voting Rights,选举管理与投票权,13,voting,0.004683986306190491
+3,Election Administration and Voting Rights,选举管理与投票权,14,court,0.004578535445034504
+3,Election Administration and Voting Rights,选举管理与投票权,15,right,0.0040441593155264854
+4,Political Culture and Executive Conduct,政治文化与行政行为,1,president,0.0080121960490942
+4,Political Culture and Executive Conduct,政治文化与行政行为,2,state,0.005139204673469067
+4,Political Culture and Executive Conduct,政治文化与行政行为,3,post,0.00445073377341032
+4,Political Culture and Executive Conduct,政治文化与行政行为,4,hegseth,0.004033855628222227
+4,Political Culture and Executive Conduct,政治文化与行政行为,5,woman,0.0034653935581445694
+4,Political Culture and Executive Conduct,政治文化与行政行为,6,white_house,0.0034537119790911674
+4,Political Culture and Executive Conduct,政治文化与行政行为,7,military,0.0033567005302757025
+4,Political Culture and Executive Conduct,政治文化与行政行为,8,republican,0.0033096098341047764
+4,Political Culture and Executive Conduct,政治文化与行政行为,9,campaign,0.003263172460719943
+4,Political Culture and Executive Conduct,政治文化与行政行为,10,texas,0.003243254730477929
+4,Political Culture and Executive Conduct,政治文化与行政行为,11,donald_trump,0.0031076669692993164
+4,Political Culture and Executive Conduct,政治文化与行政行为,12,man,0.0030573196709156036
+4,Political Culture and Executive Conduct,政治文化与行政行为,13,pentagon,0.0027148607186973095
+4,Political Culture and Executive Conduct,政治文化与行政行为,14,look,0.0026728168595582247
+4,Political Culture and Executive Conduct,政治文化与行政行为,15,know,0.0025942360516637564
+5,White House Personnel and Information Authority,白宫人事与信息权力,1,president,0.01113854255527258
+5,White House Personnel and Information Authority,白宫人事与信息权力,2,election,0.01001326460391283
+5,White House Personnel and Information Authority,白宫人事与信息权力,3,clayton,0.009426250122487545
+5,White House Personnel and Information Authority,白宫人事与信息权力,4,white_house,0.008591693826019764
+5,White House Personnel and Information Authority,白宫人事与信息权力,5,intelligence,0.007281315512955189
+5,White House Personnel and Information Authority,白宫人事与信息权力,6,leavitt,0.007212634664028883
+5,White House Personnel and Information Authority,白宫人事与信息权力,7,china,0.004783839453011751
+5,White House Personnel and Information Authority,白宫人事与信息权力,8,american,0.004547878168523312
+5,White House Personnel and Information Authority,白宫人事与信息权力,9,claim,0.003813619026914239
+5,White House Personnel and Information Authority,白宫人事与信息权力,10,pulte,0.003721006913110614
+5,White House Personnel and Information Authority,白宫人事与信息权力,11,speech,0.003702318761497736
+5,White House Personnel and Information Authority,白宫人事与信息权力,12,serve,0.003342369804158807
+5,White House Personnel and Information Authority,白宫人事与信息权力,13,press_secretary,0.003327589947730303
+5,White House Personnel and Information Authority,白宫人事与信息权力,14,director_national,0.003306690603494644
+5,White House Personnel and Information Authority,白宫人事与信息权力,15,address,0.0032791122794151306
+6,Public Health and Political Accountability,公共卫生与政治问责,1,state,0.006665583234280348
+6,Public Health and Political Accountability,公共卫生与政治问责,2,fauci,0.005612507928162813
+6,Public Health and Political Accountability,公共卫生与政治问责,3,health,0.004703004844486713
+6,Public Health and Political Accountability,公共卫生与政治问责,4,public,0.004052506759762764
+6,Public Health and Political Accountability,公共卫生与政治问责,5,political,0.003661147551611066
+6,Public Health and Political Accountability,公共卫生与政治问责,6,mcconnell,0.0036290502175688744
+6,Public Health and Political Accountability,公共卫生与政治问责,7,republican,0.003514701733365655
+6,Public Health and Political Accountability,公共卫生与政治问责,8,issue,0.003386133350431919
+6,Public Health and Political Accountability,公共卫生与政治问责,9,office,0.003353447886183858
+6,Public Health and Political Accountability,公共卫生与政治问责,10,know,0.003314768197014928
+6,Public Health and Political Accountability,公共卫生与政治问责,11,president,0.00328436610288918
+6,Public Health and Political Accountability,公共卫生与政治问责,12,senator,0.003157964674755931
+6,Public Health and Political Accountability,公共卫生与政治问责,13,campaign,0.003071431303396821
+6,Public Health and Political Accountability,公共卫生与政治问责,14,republicans,0.0030107663478702307
+6,Public Health and Political Accountability,公共卫生与政治问责,15,worker,0.002969552529975772
+7,Primaries and Candidate Competition,初选与候选人竞争,1,state,0.00815071351826191
+7,Primaries and Candidate Competition,初选与候选人竞争,2,democrats,0.007377754896879196
+7,Primaries and Candidate Competition,初选与候选人竞争,3,campaign,0.007275835610926151
+7,Primaries and Candidate Competition,初选与候选人竞争,4,voter,0.007196508347988129
+7,Primaries and Candidate Competition,初选与候选人竞争,5,win,0.007032529916614294
+7,Primaries and Candidate Competition,初选与候选人竞争,6,candidate,0.006577394902706146
+7,Primaries and Candidate Competition,初选与候选人竞争,7,party,0.005836061667650938
+7,Primaries and Candidate Competition,初选与候选人竞争,8,republican,0.005335366353392601
+7,Primaries and Candidate Competition,初选与候选人竞争,9,vote,0.005305446218699217
+7,Primaries and Candidate Competition,初选与候选人竞争,10,michigan,0.004943403881043196
+7,Primaries and Candidate Competition,初选与候选人竞争,11,election,0.00483465101569891
+7,Primaries and Candidate Competition,初选与候选人竞争,12,primary,0.00465786037966609
+7,Primaries and Candidate Competition,初选与候选人竞争,13,run,0.004588631447404623
+7,Primaries and Candidate Competition,初选与候选人竞争,14,democratic,0.004546420183032751
+7,Primaries and Candidate Competition,初选与候选人竞争,15,republicans,0.0043156021274626255
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,1,vote,0.011074572801589966
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,2,democrats,0.007656850852072239
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,3,house,0.007607744541019201
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,4,senate,0.006779530551284552
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,5,republicans,0.005662207491695881
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,6,bill,0.0056615546345710754
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,7,republican,0.005488049238920212
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,8,president,0.004946466535329819
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,9,support,0.004852306097745895
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,10,party,0.00439657224342227
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,11,election,0.004364524036645889
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,12,congress,0.003908652346581221
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,13,democratic,0.003834676928818226
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,14,pass,0.003829553257673979
+8,"Congress, Legislation, and Public Spending",国会、立法与公共支出,15,measure,0.003668226534500718
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,1,tariff,0.007307635620236397
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,2,president,0.006108631379902363
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,3,company,0.0054406821727752686
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,4,government,0.0053002187050879
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,5,economy,0.0052356538362801075
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,6,price,0.004690801724791527
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,7,canada,0.0045333681628108025
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,8,high,0.004418259486556053
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,9,rate,0.004290307871997356
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,10,datacenter,0.004263451788574457
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,11,inflation,0.0042585767805576324
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,12,trade,0.004088280256837606
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,13,economic,0.004081207327544689
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,14,cost,0.0038331563118845224
+9,"Economy, Tariffs, and Cost of Living",经济、关税与生活成本,15,american,0.0038044126704335213

@@ -1,0 +1,52 @@
+{
+  "version": "policy_topics_k6_v1",
+  "status": "provisional_human_interpretation_pending_confirmation",
+  "topics": [
+    {
+      "topic_id": 0,
+      "topic_name": "AI、数据中心与数字治理",
+      "english_name": "AI, Datacenters, and Digital Governance",
+      "definition": "Artificial-intelligence regulation, datacenter infrastructure, technology investment, digital risks, education uses, privacy, and governance of digital systems.",
+      "subissue_guidance": ["AI regulation", "datacenter infrastructure and power", "technology investment", "privacy and digital safety", "AI in education"]
+    },
+    {
+      "topic_id": 1,
+      "topic_name": "基础设施、公共土地与联邦投资",
+      "english_name": "Infrastructure, Public Lands, and Federal Investment",
+      "definition": "Construction and public infrastructure, public lands and conservation, federal or local grants, employment, and government investment decisions.",
+      "subissue_guidance": ["construction and infrastructure", "public lands", "federal grants", "local investment", "jobs connected to public projects"]
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "贸易、公共卫生与法律权利",
+      "english_name": "Trade, Public Health, and Legal Rights",
+      "definition": "A broad policy cluster covering tariffs and international trade, vaccines and public-health administration, courts and legislation, abortion or civil rights, sanctions, and rights-related regulation.",
+      "subissue_guidance": ["trade policy or tariffs", "public health or vaccines", "courts or legal rights", "abortion or civil rights", "sanctions or regulation"],
+      "special_instruction": "Always identify the specific subissue and evaluation target. Do not merge opposing evaluations of trade, public health, and legal rights into one direction without explaining the dominant target."
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "伊朗战争、石油与能源安全",
+      "english_name": "Iran War, Oil, and Energy Security",
+      "definition": "Military escalation involving Iran, diplomacy and conflict around the Strait of Hormuz, oil flows and prices, and risks to energy supply and security.",
+      "subissue_guidance": ["Iran conflict or diplomacy", "oil prices", "Strait of Hormuz", "energy supply", "household or business energy costs"],
+      "special_instruction": "Separate war conditions, oil prices, and energy supply. A price increase is not automatically negative unless the text evaluates its consequences for a stated target."
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "移民、公共资金与家庭经济",
+      "english_name": "Immigration, Public Funding, and Household Economy",
+      "definition": "Immigration enforcement and immigrant impacts, public grants and funding, business investment, inflation, affordability, and economic pressures on households and children.",
+      "subissue_guidance": ["immigration policy or enforcement", "public funding or grants", "household costs and affordability", "inflation", "children and family economic impacts"],
+      "special_instruction": "Always identify the specific subissue and evaluation target. Do not collapse immigration enforcement, public spending, and household living costs into one direction without explaining the dominant target."
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "国防开支与军事安全",
+      "english_name": "Defense Spending and Military Security",
+      "definition": "Defense budgets, Pentagon management, service-member safety, military readiness, war powers, and the domestic or fiscal costs of military conflict.",
+      "subissue_guidance": ["defense spending", "Pentagon management", "military readiness", "service-member safety", "war powers and conflict costs"]
+    }
+  ]
+}
+

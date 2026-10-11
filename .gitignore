@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+tmp/
+
+# Runtime state and raw API payloads can be large and are reproducible.
+data/.state/
+data/raw/
+data/policy_sentiment/cache/

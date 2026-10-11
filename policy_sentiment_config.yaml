@@ -1,0 +1,52 @@
+project:
+  input_probabilities: data/lda_policy/policy_article_topic_probabilities.csv
+  input_articles: data/guardian_news.jsonl
+  topic_definitions: policy_topic_definitions_v1.json
+  prompt_file: prompts/policy_sentiment_v3.md
+  prompt_addendum_file: prompts/party_target_guardrail_v5.md
+  schema_file: prompts/policy_sentiment_schema_v1.json
+  output_dir: data/policy_sentiment
+  figure_dir: figures/policy_sentiment
+  start_new_york: '2026-07-10'
+  end_new_york: '2026-10-09'
+
+api:
+  base_url: https://api.deepseek.com
+  model: deepseek-flash
+  thinking: disabled
+  prompt_version: policy_sentiment_v5
+  topic_definition_version: policy_topics_k6_v1
+  timeout_seconds: 60
+  max_retries: 3
+  backoff_seconds: 2.0
+  max_output_tokens: 3000
+  concurrency: 3
+  max_requests: 300
+  max_cost_usd: 2.00
+  trial_size: 30
+  low_sample_threshold: 3
+
+pricing_usd_per_million_tokens:
+  cache_hit_off_peak: 0.003
+  cache_hit_peak: 0.006
+  cache_miss_off_peak: 0.15
+  cache_miss_peak: 0.30
+  output_off_peak: 0.60
+  output_peak: 1.20
+  peak_utc_weekday_intervals:
+    - ['01:00', '04:00']
+    - ['06:00', '10:00']
+  note: Chinese public holidays are off-peak all day; automatic calculation uses weekday/time and cannot infer the holiday calendar.
+
+aggregation:
+  low_sample_threshold: 3
+  opinion_section_name: Opinion
+  week_start: Monday
+  include_all_92_days: true
+
+sensitivity:
+  mixed_analysis_enabled: false
+  scope_labels_file: data/lda_policy/article_scope_labels.csv
+  dictionary: models/lda_policy/policy_lda_dictionary.dict
+  phrase_model: models/lda_policy/policy_bigram_phraser.phraser
+  lda_model: models/lda_policy/guardian_policy_lda_final_k6.model

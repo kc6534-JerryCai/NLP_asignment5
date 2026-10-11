@@ -1,0 +1,653 @@
+{
+  "generated_at_utc": "2026-10-10T14:47:41.601863Z",
+  "requested_date_range_inclusive": {
+    "from": "2026-07-10",
+    "to": "2026-10-09"
+  },
+  "actual_completed_date_range_inclusive": {
+    "from": "2026-07-10",
+    "to": "2026-10-09"
+  },
+  "actual_fully_completed_chunks": [
+    {
+      "from": "2026-07-10",
+      "to": "2026-07-16"
+    },
+    {
+      "from": "2026-07-17",
+      "to": "2026-07-23"
+    },
+    {
+      "from": "2026-07-24",
+      "to": "2026-07-30"
+    },
+    {
+      "from": "2026-07-31",
+      "to": "2026-08-06"
+    },
+    {
+      "from": "2026-08-07",
+      "to": "2026-08-13"
+    },
+    {
+      "from": "2026-08-14",
+      "to": "2026-08-20"
+    },
+    {
+      "from": "2026-08-21",
+      "to": "2026-08-27"
+    },
+    {
+      "from": "2026-08-28",
+      "to": "2026-09-03"
+    },
+    {
+      "from": "2026-09-04",
+      "to": "2026-09-10"
+    },
+    {
+      "from": "2026-09-11",
+      "to": "2026-09-17"
+    },
+    {
+      "from": "2026-09-18",
+      "to": "2026-09-24"
+    },
+    {
+      "from": "2026-09-25",
+      "to": "2026-10-01"
+    },
+    {
+      "from": "2026-10-02",
+      "to": "2026-10-08"
+    },
+    {
+      "from": "2026-10-09",
+      "to": "2026-10-09"
+    }
+  ],
+  "collection_complete": true,
+  "queries": [
+    {
+      "name": "midterm_elections",
+      "q": "\"midterm election\" OR \"midterm elections\" OR midterms"
+    },
+    {
+      "name": "us_congressional_elections",
+      "q": "(\"congressional election\" OR \"congressional elections\") AND (US OR American OR America)"
+    },
+    {
+      "name": "party_competition",
+      "q": "(Democrat OR Democrats OR Democratic) AND (Republican OR Republicans) AND (election OR elections OR midterm OR midterms OR Congress)"
+    },
+    {
+      "name": "party_and_institutions",
+      "q": "(Democrat OR Democrats OR Democratic OR Republican OR Republicans) AND (Congress OR congressional OR Senate OR senator OR senators OR \"House of Representatives\")"
+    },
+    {
+      "name": "congress_elections",
+      "q": "(Congress OR congressional) AND (election OR elections OR midterm OR midterms) AND (US OR American OR Democrat OR Republican)"
+    },
+    {
+      "name": "house_elections",
+      "q": "(\"House of Representatives\" OR \"US House\") AND (election OR elections OR midterm OR midterms OR Democrat OR Republican)"
+    },
+    {
+      "name": "senate_elections",
+      "q": "(Senate OR senator OR senators) AND (election OR elections OR midterm OR midterms) AND (US OR American OR Democrat OR Republican)"
+    }
+  ],
+  "request_statistics": {
+    "requests_this_invocation": 0,
+    "collection_request_attempts_total": 98,
+    "configured_daily_guard": 475,
+    "configured_run_budget": 450,
+    "tasks_total": 98,
+    "tasks_complete": 98
+  },
+  "record_statistics": {
+    "raw_records_across_query_hits": 2946,
+    "unique_after_id_and_url_deduplication": 1216,
+    "filtered_relevant_or_uncertain": 1165,
+    "body_missing": 0,
+    "body_missing_rate": 0.0,
+    "relevance_flags": {
+      "likely_irrelevant": 51,
+      "relevant": 987,
+      "uncertain": 178
+    },
+    "article_id_merges": 1730,
+    "normalized_url_merges": 0,
+    "duplicate_body_flags": 0
+  },
+  "daily_quality": {
+    "2026-07-10": {
+      "articles": 13,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-11": {
+      "articles": 13,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-12": {
+      "articles": 18,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-13": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-14": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-15": {
+      "articles": 20,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-16": {
+      "articles": 12,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-17": {
+      "articles": 12,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-18": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-19": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-20": {
+      "articles": 14,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-21": {
+      "articles": 12,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-22": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-23": {
+      "articles": 18,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-24": {
+      "articles": 19,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-25": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-26": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-27": {
+      "articles": 16,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-28": {
+      "articles": 17,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-29": {
+      "articles": 14,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-30": {
+      "articles": 18,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-07-31": {
+      "articles": 9,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-01": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-02": {
+      "articles": 4,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-03": {
+      "articles": 13,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-04": {
+      "articles": 14,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-05": {
+      "articles": 23,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-06": {
+      "articles": 18,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-07": {
+      "articles": 12,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-08": {
+      "articles": 5,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-09": {
+      "articles": 9,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-10": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-11": {
+      "articles": 10,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-12": {
+      "articles": 18,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-13": {
+      "articles": 12,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-14": {
+      "articles": 10,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-15": {
+      "articles": 6,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-16": {
+      "articles": 10,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-17": {
+      "articles": 10,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-18": {
+      "articles": 7,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-19": {
+      "articles": 19,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-20": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-21": {
+      "articles": 9,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-22": {
+      "articles": 7,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-23": {
+      "articles": 9,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-24": {
+      "articles": 5,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-25": {
+      "articles": 13,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-26": {
+      "articles": 19,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-27": {
+      "articles": 8,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-28": {
+      "articles": 17,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-29": {
+      "articles": 7,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-30": {
+      "articles": 8,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-08-31": {
+      "articles": 13,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-01": {
+      "articles": 19,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-02": {
+      "articles": 16,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-03": {
+      "articles": 7,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-04": {
+      "articles": 7,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-05": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-06": {
+      "articles": 7,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-07": {
+      "articles": 4,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-08": {
+      "articles": 10,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-09": {
+      "articles": 16,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-10": {
+      "articles": 26,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-11": {
+      "articles": 16,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-12": {
+      "articles": 9,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-13": {
+      "articles": 8,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-14": {
+      "articles": 12,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-15": {
+      "articles": 20,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-16": {
+      "articles": 17,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-17": {
+      "articles": 14,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-18": {
+      "articles": 12,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-19": {
+      "articles": 8,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-20": {
+      "articles": 9,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-21": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-22": {
+      "articles": 19,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-23": {
+      "articles": 13,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-24": {
+      "articles": 22,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-25": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-26": {
+      "articles": 8,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-27": {
+      "articles": 11,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-28": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-29": {
+      "articles": 9,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-09-30": {
+      "articles": 22,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-01": {
+      "articles": 21,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-02": {
+      "articles": 18,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-03": {
+      "articles": 7,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-04": {
+      "articles": 13,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-05": {
+      "articles": 16,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-06": {
+      "articles": 20,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-07": {
+      "articles": 25,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-08": {
+      "articles": 18,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    },
+    "2026-10-09": {
+      "articles": 15,
+      "body_missing": 0,
+      "body_missing_rate": 0.0
+    }
+  },
+  "incomplete_tasks": [],
+  "sample_articles": [
+    {
+      "title": "Texas was once a hotbed of wild west socialism – could it make a comeback?",
+      "published_at_utc": "2026-09-09T12:00:48Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/texas-socialist-party",
+      "body_excerpt": "Texas is well-known as a Republican-red state, but it has another, largely forgotten red history of the radical shade. Long before it became a rightwing political stronghold, it was defined by cowboys on strike, farmers organizing against the railroads, and one of the largest Socialist party chapter"
+    },
+    {
+      "title": "Trump’s tough-guy image has been undone by his own actions",
+      "published_at_utc": "2026-08-17T10:00:52Z",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/17/trump-tough-guy-image-catering-truck",
+      "body_excerpt": "For decades, Donald Trump cultivated a public image based on strength and dominance. He was a brash New York real estate mogul; a reality TV star who deployed his signature phrase: “You’re fired!” to eliminate contestants from The Apprentice; and eventually US president and undisputed leader of the "
+    },
+    {
+      "title": "CDC nominee Erica Schwartz pressed on whether she will resist RFK Jr’s vaccine agenda",
+      "published_at_utc": "2026-07-15T21:24:28Z",
+      "url": "https://www.theguardian.com/us-news/2026/jul/15/erica-schwartz-cdc-senate-hearing",
+      "body_excerpt": "Erica Schwartz, the Trump administration’s latest nominee to lead the Centers for Disease Control and Prevention (CDC), faced sharp questioning from senators who pressed her to say whether she would stand up to her boss, the health secretary Robert F Kennedy Jr. During her confirmation hearing on We"
+    },
+    {
+      "title": "Progressive Aisha Wahab wins California special election to fill Eric Swalwell seat",
+      "published_at_utc": "2026-08-21T00:24:56Z",
+      "url": "https://www.theguardian.com/us-news/2026/aug/20/california-special-election-results-eric-swalwell",
+      "body_excerpt": "Progressive Aisha Wahab has been elected to Congress in a special election following a bitter intra-party battle over the seat formerly held by Eric Swalwell, who resigned in April after facing sexual misconduct allegations. Swalwell has denied the allegations. Wahab, a state senator, was widely con"
+    },
+    {
+      "title": "Private equity faces existential crisis in US as unsold companies pile up",
+      "published_at_utc": "2026-09-04T10:00:04Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/04/private-equity-boom-hospital-job-layoff",
+      "body_excerpt": "Retail stalwarts Saks and Eddie Bauer filed for bankruptcy. Kmart and JoAnn Fabrics are gone for good, a trail of layoffs and disappointed customers in their wake. Hospital giant Steward Health Care collapsed, costing thousands of jobs and leaving several communities without a local hospital. These "
+    },
+    {
+      "title": "Epstein survivors praise House panel over Leon Black contempt vote",
+      "published_at_utc": "2026-09-16T15:32:25Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/16/epstein-survivors-leon-black-contempt",
+      "body_excerpt": "More than a dozen survivors of Jeffrey Epstein’s abuse praised the House oversight committee for unanimously voting to recommend that billionaire investor Leon Black be held in contempt for refusing to comply with subpoenas by the panel seeking his testimony and nondisclosure agreements (NDAs) as pa"
+    },
+    {
+      "title": "Leon Black fails to appear for US House deposition about Epstein ties",
+      "published_at_utc": "2026-09-03T14:08:26Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/03/jeffrey-epstein-leon-black-congress-deposition",
+      "body_excerpt": "The billionaire financier Leon Black did not appear on Thursday in front of the House oversight committee for a scheduled deposition about his ties to Jeffrey Epstein, and has instead launched a lawsuit against the committee arguing that it does not have the authority to compel him to turn over non-"
+    },
+    {
+      "title": "Democrat John Fetterman makes surprise appearance at Republican convention",
+      "published_at_utc": "2026-09-10T00:24:14Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/john-fetterman-democrat-republican-midterm-convention",
+      "body_excerpt": "The Democratic senator John Fetterman made a surprise virtual appearance at the Republican midterm convention, delivering a video address supporting Dave McCormick, a Republican senator in Pennsylvania. Fetterman, who has increasingly broken with his party since his election in 2022, said in the vid"
+    },
+    {
+      "title": "Why is the Trump administration causing turmoil in the bond markets?",
+      "published_at_utc": "2026-08-20T16:14:59Z",
+      "url": "https://www.theguardian.com/business/2026/aug/20/why-us-bond-market-turmoil-hitting-governments-worldwide",
+      "body_excerpt": "Government borrowing costs around the world have surged to the highest levels in decades amid growing fears over US bond market turmoil. Anxiety about Donald Trump’s handling of the US economy, and concern that the US president’s war with Iran is driving up inflation, are causing a sell-off in the U"
+    },
+    {
+      "title": "Progressive climate organizer William Lawrence wins Michigan Democratic House primary",
+      "published_at_utc": "2026-08-05T15:31:28Z",
+      "url": "https://www.theguardian.com/us-news/2026/aug/05/william-lawrence-michigan-democratic-house-primary",
+      "body_excerpt": "William Lawrence, a prominent environmental organizer who foregrounded his support for a datacenter moratorium, has won the Democratic primary in Michigan’s seventh congressional district in a victory for progressives. Lawrence was a co-founder of the youth-led climate justice organization the Sunri"
+    }
+  ],
+  "notes": [
+    "guardian_news files retain every deduplicated query hit.",
+    "guardian_news_filtered files retain relevant and uncertain rows; uncertain rows require manual review.",
+    "Summary text is never substituted for a missing body; body_missing remains explicit."
+  ]
+}

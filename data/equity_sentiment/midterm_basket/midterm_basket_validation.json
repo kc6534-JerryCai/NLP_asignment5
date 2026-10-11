@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-10-10T19:36:43.003247+00:00",
+  "validation_status": "pass",
+  "checks": {
+    "full_component_keys_unique": true,
+    "full_components_have_returns": true,
+    "full_daily_keys_unique": true,
+    "full_test_keys_unique": true,
+    "full_q_values_in_range": true,
+    "full_valid_effects_finite": true,
+    "no_missing_returns_filled_with_zero": true,
+    "holdout_component_keys_unique": true,
+    "holdout_daily_keys_unique": true,
+    "holdout_test_keys_unique": true,
+    "holdout_selection_precedes_validation": true
+  }
+}

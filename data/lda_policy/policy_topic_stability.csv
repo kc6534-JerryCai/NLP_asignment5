@@ -1,0 +1,13 @@
+﻿base_random_state,comparison_random_state,base_topic_id,matched_topic_id,cosine_similarity_full_vocabulary,top15_keyword_jaccard,matching_method
+42,7,0,0,0.836068868637085,0.30434782608695654,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,7,1,1,0.45074883103370667,0.07142857142857142,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,7,2,4,0.8078135251998901,0.15384615384615385,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,7,3,2,0.9351352453231812,0.5,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,7,4,3,0.7478872537612915,0.25,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,7,5,5,0.5976285338401794,0.15384615384615385,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,99,0,3,0.7949943542480469,0.2,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,99,1,0,0.7275004982948303,0.15384615384615385,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,99,2,5,0.7857577800750732,0.1111111111111111,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,99,3,4,0.9286521673202515,0.5789473684210527,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,99,4,2,0.6220939755439758,0.2,Exact permutation assignment maximizing cosine similarity of full topic-word distributions
+42,99,5,1,0.4989469051361084,0.1111111111111111,Exact permutation assignment maximizing cosine similarity of full topic-word distributions

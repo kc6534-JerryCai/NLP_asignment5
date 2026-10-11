@@ -1,0 +1,27 @@
+{
+  "batch": 21,
+  "tickers": [
+    "KVYO",
+    "LAZ",
+    "LBTYA",
+    "LBTYK",
+    "LEN B",
+    "LINE",
+    "LLYVA"
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "at_utc": "2026-10-10T19:00:39.885211+00:00",
+      "returned_tickers": [
+        "KVYO",
+        "LAZ",
+        "LBTYA",
+        "LBTYK",
+        "LINE",
+        "LLYVA"
+      ],
+      "error": null
+    }
+  ]
+}

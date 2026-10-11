@@ -1,0 +1,385 @@
+﻿topic_id,topic_name,index_type,price_measure,relation,lag_direction,method,coefficient,effective_n,independent_sample_p_reference,bootstrap_ci_low,bootstrap_ci_high,block_null_p,bootstrap_valid_repetitions,null_valid_repetitions,block_length_days,inference_reliable_n,primary_test,bh_q,bh_reject_0_05
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,level_same,S_t versus P_t,pearson,-0.3986928344457978,11,,-0.9175444975585999,0.2385464328112666,0.25795454545454544,865,879,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,level_same,S_t versus P_t,spearman,-0.3919276794717019,11,,-0.842423539174232,0.1328422328310143,0.2566473988439306,900,864,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,,1,,,,,0,0,7,False,True,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,,1,,,,,0,0,7,False,True,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.054878255689861835,11,,-0.4335549847620601,0.7597217761636019,0.8526315789473684,884,854,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.18766297265136728,11,,-0.37080992435478316,0.7287800298788432,0.5594965675057209,884,873,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,1,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,1,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,level_same,S_t versus P_t,pearson,-0.4394292597881053,11,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,level_same,S_t versus P_t,spearman,-0.3910359202286804,11,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,,1,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,,1,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.2556528043915711,11,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.17690759253434063,11,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,1,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,1,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,level_same,S_t versus P_t,pearson,-0.23311935097120864,14,,-0.40340079095412645,-0.10193335495982715,0.3328100470957614,652,636,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,level_same,S_t versus P_t,spearman,-0.17392713482426,14,,-0.3900686581262771,0.11577058990186095,0.5317829457364341,665,644,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,,2,,,,,0,0,7,False,True,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,,2,,,,,0,0,7,False,True,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.04175940722106984,14,,-0.22249707974499242,0.125,0.8114104595879557,666,630,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.04009174323978183,14,,-0.22689215826037593,0.12309149097933274,0.8755622188905547,643,666,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,2,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,2,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,level_same,S_t versus P_t,pearson,-0.23335440111539604,14,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,level_same,S_t versus P_t,spearman,-0.13806007906801607,14,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,,2,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,,2,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.007838034851274076,14,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.035182987609823045,14,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,2,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,2,,,,,0,0,7,False,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,level_same,S_t versus P_t,pearson,0.13542719186618446,48,,-0.19878061810501316,0.4852977488464254,0.3891675025075226,993,996,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,level_same,S_t versus P_t,spearman,0.015175160241622103,48,,-0.34636438944715,0.4199833407511038,0.9078156312625251,999,997,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.19057529497442888,30,,0.0,0.42804505459339803,0.2822822822822823,998,998,7,True,True,0.607992607992608,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.2393102145032237,30,,0.0,0.504095603879029,0.206,998,999,7,True,True,0.5874125874125874,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.1578221615243438,48,,-0.30191153936685383,-0.036211844181309905,0.26104417670682734,992,995,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.19230923951261966,48,,-0.3540108445559766,-0.045055602886510705,0.19497487437185929,996,994,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.17546690288681374,30,,-0.20075524915852744,0.36359280610912875,0.34769539078156314,997,997,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.03153286040231307,30,,-0.2997760468247905,0.3565154618795571,0.8547094188376754,997,997,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,level_same,S_t versus P_t,pearson,0.14447623564055448,48,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,level_same,S_t versus P_t,spearman,-0.004107584635352945,48,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.21347356244065985,30,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.22699629826011522,30,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.15923267035403973,48,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.14886785781519943,48,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.23506543943559535,30,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.11164862129877097,30,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,level_same,S_t versus P_t,pearson,-0.19115202412798732,16,,-0.37423139906899855,-0.11037710593469305,0.4519519519519519,658,665,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,level_same,S_t versus P_t,spearman,-0.2900378886739737,16,,-0.4530614289115613,-0.2099053998986243,0.24918032786885247,645,609,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.0,6,,-0.2696799449852968,0.34299717028501764,1.0,541,556,7,False,True,1.0,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.0,6,,-0.36596252735569995,0.4242640687119285,1.0,550,566,7,False,True,1.0,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.0,16,,-0.10286889997472794,0.25482359571881275,1.0,623,633,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.064995557096191,16,,-0.10237357737706623,0.2741711954247084,0.720679012345679,631,647,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.0,6,,-0.35355339059327373,0.31622776601683794,1.0,366,535,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.0,6,,-0.25819888974716115,0.24152294576982397,1.0,365,569,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,level_same,S_t versus P_t,pearson,-0.18591651764140013,16,,,,,0,0,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,level_same,S_t versus P_t,spearman,-0.2880009216044237,16,,,,,0,0,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.0,6,,,,,0,0,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.0,6,,,,,0,0,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.037192204240454704,16,,,,,0,0,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.02925872119873194,16,,,,,0,0,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.0,6,,,,,0,0,7,False,False,,False
+3,"Iran War, Oil, and Energy Security",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.0,6,,,,,0,0,7,False,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,level_same,S_t versus P_t,pearson,-0.18537339323908425,35,,-0.30966760569238067,-0.09823761193764018,0.262993762993763,970,961,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,level_same,S_t versus P_t,spearman,-0.2665609555667435,35,,-0.38694287482791057,-0.09947294626039876,0.09329140461215933,964,953,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.04945796927245962,16,,-0.22821773229381923,0.23128631636184985,0.8353783231083844,954,977,7,False,True,1.0,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.0,16,,-0.3266372899592439,0.32190157905798533,1.0,971,966,7,False,True,1.0,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.04398532638010258,35,,-0.14660979859637222,0.044001819892025854,0.7103092783505155,976,969,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.052467701496657713,35,,-0.20203763236132855,0.09877583566343123,0.7365145228215768,962,963,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.15155655218785663,16,,-0.3248759276560065,0.08605804533132418,0.48863636363636365,959,967,7,False,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.1892588583999089,16,,-0.43178240950499897,0.15924589830977404,0.5334018499486125,951,972,7,False,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,level_same,S_t versus P_t,pearson,-0.18185693297233846,35,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,level_same,S_t versus P_t,spearman,-0.2428544507929064,35,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.3139947903689389,16,,,,,0,0,7,False,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.28374191444912183,16,,,,,0,0,7,False,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.06075854256853602,35,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.12434364584440444,35,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.09975816840143653,16,,,,,0,0,7,False,False,,False
+4,"Immigration, Public Funding, and Household Economy",democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.11060495061940351,16,,,,,0,0,7,False,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_close,level_same,S_t versus P_t,pearson,-0.13497111421120642,22,,-0.3083120530807451,0.5937615864004079,0.5745164960182025,874,878,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_close,level_same,S_t versus P_t,spearman,0.05546935292757601,22,,-0.3709557150033393,0.6265168509194156,0.801123595505618,895,889,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.0,5,,-0.47809144373375745,0.5594309277855158,1.0,475,440,7,False,True,1.0,False
+5,Defense Spending and Military Security,democrat_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.0,5,,-0.5345224838248488,0.45175395145262565,1.0,472,466,7,False,True,1.0,False
+5,Defense Spending and Military Security,democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.047674031558816,22,,-0.404656188297872,0.1101872665345879,0.7423382519863791,889,880,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.20576723151328874,22,,-0.5400617248673216,0.10381070730216606,0.3835616438356164,885,875,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.0,5,,-0.4082482904638629,0.4082482904638629,1.0,378,474,7,False,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.0,5,,-0.408248290463863,0.31622776601683794,1.0,351,487,7,False,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,level_same,S_t versus P_t,pearson,-0.13300435200743568,22,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,level_same,S_t versus P_t,spearman,0.041751712022762656,22,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.0,5,,,,,0,0,7,False,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.0,5,,,,,0,0,7,False,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.049392694155253006,22,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.1679299475187381,22,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.0,5,,,,,0,0,7,False,False,,False
+5,Defense Spending and Military Security,democrat_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.0,5,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,level_same,S_t versus P_t,pearson,-0.13004521682518416,12,,-0.744337757761995,0.5569002912993524,0.5930824008138352,977,982,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,level_same,S_t versus P_t,spearman,-0.07753756650329531,12,,-0.8493461821046008,0.6467616667635546,0.7477110885045778,982,982,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,,3,,,,,0,0,7,False,True,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,,3,,,,,0,0,7,False,True,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.18934089271889187,12,,-0.4822397079309544,0.7064531714796953,0.5590955806783144,976,972,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.2114673484377235,12,,-0.5102135616274458,0.8126360553720011,0.5225409836065574,971,975,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,3,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,3,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,level_same,S_t versus P_t,pearson,-0.13751704392759106,12,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,level_same,S_t versus P_t,spearman,-0.003762430677265527,12,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,,3,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,,3,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.17026740493280962,12,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.03015220522271296,12,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,3,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,3,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,level_same,S_t versus P_t,pearson,-0.18175456623765932,19,,-0.6467828169466974,0.4039126995453929,0.49899396378269617,992,993,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,level_same,S_t versus P_t,spearman,-0.07267303865160224,19,,-0.5299162504106644,0.5210075466213168,0.7867203219315896,992,993,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,,4,,,,,0,0,7,False,True,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,,4,,,,,0,0,7,False,True,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.08394277053908834,19,,-0.41403933560541256,0.375,0.7424849699398798,993,997,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.012568611790010025,19,,-0.4382504900892777,0.424618615786446,0.94662638469285,993,992,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,4,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,4,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,level_same,S_t versus P_t,pearson,-0.18905043540412653,19,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,level_same,S_t versus P_t,spearman,-0.09310776026898263,19,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,,4,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,,4,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.07846993506043147,19,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.09343676398063146,19,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,,4,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,,4,,,,,0,0,7,False,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,level_same,S_t versus P_t,pearson,0.11082582997612857,63,,-0.09688420677839572,0.31041149885644154,0.3936063936063936,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,level_same,S_t versus P_t,spearman,0.13049467438251877,63,,-0.10772515580217581,0.38335918401688573,0.3086913086913087,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.3061915586908304,46,,-0.13237539805130397,0.5829037360927047,0.03996003996003996,1000,1000,7,True,True,0.5874125874125874,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.21439739516131534,46,,-0.18972200574251488,0.520533790795755,0.14385614385614387,1000,1000,7,True,True,0.5874125874125874,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.1077730123398215,63,,-0.31138277766673034,0.1791533939602612,0.4115884115884116,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.07391657854903669,63,,-0.2842227448288691,0.15640860122456893,0.5644355644355644,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.21168586756282204,46,,0.0014516509129374924,0.43379938350387276,0.16783216783216784,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.14425733591071155,46,,-0.07400350530162315,0.32482941845379437,0.32867132867132864,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,level_same,S_t versus P_t,pearson,0.09627722431301847,63,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,level_same,S_t versus P_t,spearman,0.10468859020919635,63,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.19583735253330378,46,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.1894825614654722,46,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.04340142651965945,63,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.017968308343876884,63,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.27024907715949464,46,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.07327074719093123,46,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,level_same,S_t versus P_t,pearson,-0.0021489310637742426,40,,-0.2551245320658992,0.2533374644603985,0.989010989010989,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,level_same,S_t versus P_t,spearman,-0.008286199440760382,40,,-0.27765752006560757,0.3536421046790211,0.9560439560439561,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.3023942991174476,21,,-0.09526511996669594,0.7398300378117157,0.183,998,999,7,True,True,0.5874125874125874,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.2749357283681797,21,,-0.25,0.7146534920742399,0.209,999,999,7,True,True,0.5874125874125874,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.14046586224944452,40,,-0.4682073788865077,0.2426624474362576,0.3756243756243756,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.01405501217776406,40,,-0.2724224857465411,0.3204965100539739,0.9180819180819181,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.2811408329087667,21,,-0.10346584506722221,0.6421838503954669,0.221,999,999,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.20943984300395255,21,,-0.16305745714432496,0.5363102964591925,0.34165834165834164,999,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,level_same,S_t versus P_t,pearson,-0.024668384587906874,40,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,level_same,S_t versus P_t,spearman,-0.05830677848062084,40,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.10123906368087567,21,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.11616866684184896,21,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.0523557712041287,40,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.13412062213710563,40,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.3011681517779666,21,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.07961389028357323,21,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,level_same,S_t versus P_t,pearson,-0.052475863159387084,47,,-0.29403455304259807,0.1593336851578915,0.6773226773226774,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,level_same,S_t versus P_t,spearman,-0.08931394267469273,47,,-0.2900400526934382,0.14301347567675957,0.4485514485514486,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.31259384215482017,23,,-0.019408520705371596,0.5335783750799324,0.14985014985014986,1000,1000,7,True,True,0.5874125874125874,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.2683349171823601,23,,-0.08380019039424887,0.5200859717291152,0.208,1000,999,7,True,True,0.5874125874125874,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.07261073413098865,47,,-0.3490363304625605,0.3222723289498478,0.6283716283716284,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.06105101645586848,47,,-0.36148078146826873,0.300699209297679,0.6873126873126874,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.32600012441982473,23,,-0.03210326357570782,0.6549551321918246,0.125,999,999,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.24663703041359203,23,,-0.17171186862034213,0.6212896606544208,0.24075924075924077,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,level_same,S_t versus P_t,pearson,-0.04470227964968637,47,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,level_same,S_t versus P_t,spearman,-0.08627379907795224,47,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.1267510194618901,23,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.024616859662618586,23,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.17344171849349974,47,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.07667831351681924,47,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.23857958215062816,23,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.10623488713689366,23,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_close,level_same,S_t versus P_t,pearson,0.031225993674563347,38,,-0.2475846962660861,0.40393852348427417,0.8611388611388612,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_close,level_same,S_t versus P_t,spearman,-0.03598605790695225,38,,-0.30249375928655853,0.32134888760611674,0.7922077922077922,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.3116271695156455,19,,-0.17263430495498083,0.7100105627151404,0.1931931931931932,998,998,7,False,True,0.5874125874125874,False
+5,Defense Spending and Military Security,republican_stance,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.26668603696563353,19,,-0.31622776601683794,0.6890534820990537,0.26873126873126874,999,1000,7,False,True,0.607992607992608,False
+5,Defense Spending and Military Security,republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.15321407421346697,38,,-0.45334330089480657,0.15699781243075375,0.35264735264735264,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.03408381287858024,38,,-0.2878904523024158,0.33083444119656796,0.8421578421578422,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.2974819738690941,19,,-0.059046037235594026,0.6363857323067353,0.23046092184368738,991,997,7,False,False,,False
+5,Defense Spending and Military Security,republican_stance,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.2547313632939696,19,,-0.1664500757152958,0.5655841417313242,0.305,989,999,7,False,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,level_same,S_t versus P_t,pearson,0.009055135271442664,38,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,level_same,S_t versus P_t,spearman,-0.08442027573344837,38,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.12575500069765957,19,,,,,0,0,7,False,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.2611500923020747,19,,,,,0,0,7,False,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.08750968797893167,38,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.17391354618015278,38,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.38695176641930196,19,,,,,0,0,7,False,False,,False
+5,Defense Spending and Military Security,republican_stance,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.35174208889495795,19,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,level_same,S_t versus P_t,pearson,0.22474769392233174,79,,0.04470757027166531,0.39950681800165444,0.057942057942057944,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,level_same,S_t versus P_t,spearman,0.19509831437506375,79,,-0.024453898723573547,0.3793637889429119,0.08791208791208792,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.10974802211474285,69,,-0.13664653323618037,0.3039187715191505,0.2967032967032967,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.05765559042911399,69,,-0.15491154064215965,0.29583882621246654,0.6043956043956044,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.08202824839943043,79,,-0.24177143960589606,0.07745993175584372,0.45554445554445555,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.1618379077829324,79,,-0.3505375118689939,0.0549847058742095,0.16083916083916083,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.012150426070685708,69,,-0.1397170617377236,0.21492130480686109,0.919080919080919,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.08231738189817948,69,,-0.255013215942781,0.11973641810266988,0.45054945054945056,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,level_same,S_t versus P_t,pearson,0.22528764358359152,79,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,level_same,S_t versus P_t,spearman,0.22184868937560082,79,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.20940863585507832,69,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.20608895080980444,69,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.05004671272162635,79,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.21096954493960918,79,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.0010899736478818987,69,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.16090356633441372,69,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,level_same,S_t versus P_t,pearson,0.06326017101886831,79,,-0.10739251353327094,0.23146470072025063,0.5264735264735265,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,level_same,S_t versus P_t,spearman,0.02300820515350184,79,,-0.14538227929800357,0.16968921842648377,0.7972027972027972,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,pearson,-0.05064539198670104,69,,-0.1781475453790848,0.07775695041011267,0.6523476523476524,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,spearman,-0.08495216422646718,69,,-0.2737885422140941,0.10248466411016063,0.47652347652347654,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.007048362082105884,79,,-0.12312486584825405,0.15699905923506866,0.9500499500499501,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.07581595679921158,79,,-0.2614320104769668,0.12509095868399095,0.5024975024975025,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.020417858603763838,69,,-0.15977544943633365,0.2082569807500667,0.8581418581418582,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.00012359967251978902,69,,-0.17442461966514347,0.23013321357744249,1.0,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,level_same,S_t versus P_t,pearson,0.072566319143069,79,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,level_same,S_t versus P_t,spearman,0.04783177779840156,79,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,pearson,-0.0023894391008998784,69,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.06321565412078538,69,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.05672829831615453,79,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.18592883196485824,79,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.050836062046971664,69,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.07351197139797527,69,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,level_same,S_t versus P_t,pearson,-0.08814131599268725,79,,-0.24751891374840218,0.10677068365700042,0.46653346653346656,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,level_same,S_t versus P_t,spearman,-0.0960001747756543,79,,-0.2826001278775233,0.07997378578724897,0.44255744255744256,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,pearson,-0.1380732952662151,69,,-0.40930954554810456,0.0931486542094862,0.22077922077922077,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,spearman,-0.0994068944048711,69,,-0.3019694989308544,0.10743427607049197,0.4075924075924076,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.21660648359282575,79,,-0.03496366043760618,0.49538344011987817,0.053946053946053944,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.15766830268218496,79,,-0.06946922274458084,0.36257655301785696,0.15884115884115885,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.3213053895903747,69,,0.08550992607180397,0.5317479757736352,0.005994005994005994,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.2539561271373265,69,,0.06265414747453854,0.4376576754806098,0.026973026973026972,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,level_same,S_t versus P_t,pearson,-0.08909878836918181,79,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,level_same,S_t versus P_t,spearman,-0.08302552402344326,79,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,pearson,-0.08776461176196583,69,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,spearman,-0.06377050187491749,69,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.1519427669649639,79,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.07266113519209053,79,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.15497413037425525,69,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.07964569021136822,69,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,level_same,S_t versus P_t,pearson,-0.14765575587835314,79,,-0.3730173870762387,0.1414023052655454,0.34465534465534464,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,level_same,S_t versus P_t,spearman,-0.17537174784909704,79,,-0.40078114060442827,0.14364724187481737,0.24775224775224775,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.19034541731654955,69,,-0.13312781545249291,0.48142044142096047,0.11188811188811189,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.17447757641898304,69,,-0.106728166642783,0.4292284170464497,0.13186813186813187,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.20177042823729036,79,,-0.40362349688970073,0.06304528768515713,0.08191808191808192,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.14714890680709666,79,,-0.39563126925650655,0.09883172205101469,0.2127872127872128,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.2152058481132684,69,,-0.42770109007211315,0.011930350430445017,0.06993006993006994,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.20163226577061583,69,,-0.4009400639455036,0.0322246477897926,0.08091908091908091,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,level_same,S_t versus P_t,pearson,-0.15702982417152195,79,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,level_same,S_t versus P_t,spearman,-0.17206509202919001,79,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.017174827800229876,69,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,spearman,-0.008470675713083589,69,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.095182257687616,79,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.12834134463226152,79,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.00585370505662976,69,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.029760581312111994,69,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,level_same,S_t versus P_t,pearson,0.09718609301485667,79,,-0.06847670389715237,0.2424298637021744,0.4025974025974026,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,level_same,S_t versus P_t,spearman,0.0013469412277196393,79,,-0.17550566298259013,0.1672597293741202,0.995004995004995,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.15587074814765492,69,,-0.124081437999523,0.40727634541977875,0.19080919080919082,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.049121583063898105,69,,-0.16867569823177656,0.3142579311592356,0.6843156843156843,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.09544491456091671,79,,-0.24721352598542576,0.07779550859916132,0.3966033966033966,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.09693650551214794,79,,-0.3240239638934169,0.14667258230327251,0.4125874125874126,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.09273622506633968,69,,-0.25077674938598804,0.03594090677287124,0.4225774225774226,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.13122165232517602,69,,-0.3276543271199075,0.0653090799760351,0.28771228771228774,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,level_same,S_t versus P_t,pearson,0.09274187337284084,79,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,level_same,S_t versus P_t,spearman,0.015980522549325693,79,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.016670077115498737,69,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,spearman,-0.07636554589371645,69,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.012973029786205095,79,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.04529477369044627,79,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.08235408895134091,69,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.002205173833213778,69,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,level_same,S_t versus P_t,pearson,-0.07342254977765042,79,,-0.24129471128959226,0.1429483471711176,0.5204795204795205,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,level_same,S_t versus P_t,spearman,-0.1728615391974377,79,,-0.329283673632628,0.01435293249404507,0.11788211788211789,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,change_same,Delta S_t versus Delta P_t,pearson,-0.28149224457962846,69,,-0.5569384361385842,-0.027319562360854196,0.016983016983016984,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,change_same,Delta S_t versus Delta P_t,spearman,-0.13360417272242278,69,,-0.29680382774078595,0.010355597878376015,0.25874125874125875,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.14545371933100915,79,,-0.26686850353313474,0.49190117464445104,0.17482517482517482,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.08688039909269824,79,,-0.2955460766544783,0.1322691683973411,0.4835164835164835,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.17905727054316745,69,,-0.3577740224360478,0.0012987042889337564,0.12887112887112886,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.10394732458914258,69,,-0.3090417736292641,0.09323283242895555,0.36563436563436563,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,level_same,S_t versus P_t,pearson,-0.06632984125805691,79,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,level_same,S_t versus P_t,spearman,-0.1688567886471498,79,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,pearson,-0.1771531435641384,69,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,change_same,Delta S_t versus Delta P_t,spearman,-0.05709383390019441,69,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.02736583786013884,79,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.09831709909988202,79,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.278261591695354,69,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_attention,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.16653695158901027,69,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,level_same,S_t versus P_t,pearson,-0.2879921376144442,24,,-0.649007467061953,0.10729393351422647,0.18681318681318682,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,level_same,S_t versus P_t,spearman,-0.18756746991572654,24,,-0.569900606939181,0.2829903781382402,0.3126873126873127,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,pearson,-0.31602114415865235,8,,-0.9180324883082888,0.21842253297478437,0.433252427184466,854,823,7,False,True,0.7581917475728155,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,spearman,-0.4390570399587614,8,,-1.0,0.21972555247313055,0.2654970760233918,860,854,7,False,True,0.607992607992608,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.06217546062183183,24,,-0.2672701272970476,0.42505528234719003,0.791,1000,999,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.07501360566906645,24,,-0.2823149331607177,0.4465703454317804,0.7212787212787213,1000,1000,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.011986052090716093,8,,-0.6536530717310493,0.7453514208815434,0.9675480769230769,835,831,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.17399697105868406,8,,-0.669438681395203,0.7453559924999299,0.6566985645933014,858,835,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,level_same,S_t versus P_t,pearson,-0.30007295140674156,24,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,level_same,S_t versus P_t,spearman,-0.1663522149144478,24,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,pearson,-0.1255501326006584,8,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,spearman,-0.17964393928698885,8,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.14415690317104454,24,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.035411481922465175,24,,,,,0,0,7,True,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.1402284381038331,8,,,,,0,0,7,False,False,,False
+0,"AI, Datacenters, and Digital Governance",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.29940656547831473,8,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,level_same,S_t versus P_t,pearson,-0.12024211777003581,30,,-0.41010842056270014,0.2697335823043388,0.4065934065934066,999,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,level_same,S_t versus P_t,spearman,-0.22355698068678573,30,,-0.5923781935662042,0.2588615788588894,0.14714714714714713,1000,998,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.25772770547906243,13,,-0.42276812121965013,0.686268350726877,0.3957703927492447,988,992,7,False,True,0.7387713997985901,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.01818256954319139,13,,-0.5819143739626463,0.6356417261637282,0.9311043566362716,984,986,7,False,True,1.0,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.2470703442372598,30,,-0.5758526005989556,0.2157481787954479,0.18281718281718282,1000,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.0618904105848736,30,,-0.3866695010599719,0.3087469935907873,0.7422577422577422,999,1000,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.3519051320533174,13,,-0.7989354619369612,0.6019185617523297,0.26149131767109296,987,978,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.0878920511219878,13,,-0.6708203932499369,0.6749233085267081,0.7602040816326531,986,979,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,level_same,S_t versus P_t,pearson,-0.11043991182268939,30,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,level_same,S_t versus P_t,spearman,-0.19138802437124833,30,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.5968048047616671,13,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.32463359002464437,13,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.26836198161597996,30,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.19427857171975862,30,,,,,0,0,7,True,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.10764744228419768,13,,,,,0,0,7,False,False,,False
+1,"Infrastructure, Public Lands, and Federal Investment",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.05659882594488622,13,,,,,0,0,7,False,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,level_same,S_t versus P_t,pearson,-0.12285172755989603,74,,-0.26905804687555357,0.12184030698459512,0.3176823176823177,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,level_same,S_t versus P_t,spearman,-0.1704637970530992,74,,-0.32364997050436184,0.06452603491533523,0.15584415584415584,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.1702262705398336,61,,0.034072801985559384,0.35173641541194356,0.17182817182817184,1000,1000,7,True,True,0.5874125874125874,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.15175766019432413,61,,0.010809074353130676,0.3273400519378748,0.2097902097902098,1000,1000,7,True,True,0.5874125874125874,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.028047121865047268,74,,-0.1472926395309611,0.09589855042881379,0.8001998001998002,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.08253725237270981,74,,-0.246720093557412,0.08654810065078294,0.4825174825174825,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.12686368772252343,61,,-0.07846763125061028,0.33772437962623414,0.3176823176823177,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.07335285993592121,61,,-0.24958485426013413,0.3201885654509464,0.5634365634365635,1000,1000,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,level_same,S_t versus P_t,pearson,-0.1446750272676786,74,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,level_same,S_t versus P_t,spearman,-0.1840039144109982,74,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.03658682691338244,61,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,spearman,-0.009908076140514662,61,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.07394546548480913,74,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.02423851501556467,74,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.14840782165832608,61,,,,,0,0,7,True,False,,False
+2,"Trade, Public Health, and Legal Rights",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.05499359279654294,61,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,level_same,S_t versus P_t,pearson,0.22090400943712374,56,,-0.12430182406464488,0.4960577361528729,0.16683316683316685,999,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,level_same,S_t versus P_t,spearman,0.2842224920852789,56,,-0.0518642720476564,0.5038059994274481,0.06793206793206794,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.06966087571938331,36,,-0.03281727091681936,0.2931213597174392,0.6843156843156843,1000,1000,7,True,True,1.0,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.08071757624837195,36,,-0.1318952492506297,0.31959382386192386,0.6513486513486514,999,1000,7,True,True,1.0,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.206464552750297,56,,-0.4382267843517264,0.07161655261362114,0.14385614385614387,999,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.05381064926425614,56,,-0.32427470635095185,0.25488270837285126,0.6683316683316683,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.18357269151533456,36,,-0.5589116015210766,0.2735369157875157,0.26973026973026976,1000,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.06568892967451626,36,,-0.4904694163324756,0.3945382568247061,0.7282717282717283,999,1000,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,level_same,S_t versus P_t,pearson,0.23466324113225703,56,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,level_same,S_t versus P_t,spearman,0.2844880720451514,56,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.07130513145199213,36,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.03520216022913995,36,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.19745466121009392,56,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.12084464184726919,56,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.07711462504963984,36,,,,,0,0,7,True,False,,False
+3,"Iran War, Oil, and Energy Security",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.019469080377655223,36,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,level_same,S_t versus P_t,pearson,-0.06120730936685912,62,,-0.3056020557329684,0.23242126275154046,0.5534465534465535,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,level_same,S_t versus P_t,spearman,0.015343070803423947,62,,-0.23141503045343537,0.28782012277424235,0.8511488511488512,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.13537193695599253,44,,-0.15334435095449672,0.37944731851961216,0.37662337662337664,1000,1000,7,True,True,0.7387713997985901,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,spearman,0.034985213429831824,44,,-0.26165616153924254,0.29560106739911896,0.8131868131868132,1000,1000,7,True,True,1.0,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.17153169414915165,62,,-0.44285516092336774,0.11824559286093753,0.19480519480519481,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.017752286403756205,62,,-0.276499221557875,0.23505624733577676,0.8841158841158842,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.12972081644419128,44,,-0.3801065270407454,0.16595146874216934,0.3756243756243756,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.025739979397668398,44,,-0.3511579025676053,0.3376751977821753,0.8661338661338661,1000,1000,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,level_same,S_t versus P_t,pearson,-0.05797943987149158,62,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,level_same,S_t versus P_t,spearman,0.0381197941119296,62,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,pearson,0.23852274743875992,44,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,spearman,0.25061780936243483,44,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,-0.14359503691449985,62,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,-0.02283427554066099,62,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,-0.01765433990247558,44,,,,,0,0,7,True,False,,False
+4,"Immigration, Public Funding, and Household Economy",topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,-0.051273049170281235,44,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,level_same,S_t versus P_t,pearson,-0.002285343591187672,56,,-0.2608263519992151,0.2866368462901799,0.988011988011988,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,level_same,S_t versus P_t,spearman,-0.04128496340156764,56,,-0.33442089893951665,0.28839564543853935,0.7762237762237763,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,pearson,0.0656378778776225,35,,-0.11667881949580573,0.24633166144760305,0.6883116883116883,1000,1000,7,True,True,1.0,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,change_same,Delta S_t versus Delta P_t,spearman,-0.03863758558442212,35,,-0.22543630949986643,0.226402862315318,0.803,998,999,7,True,True,1.0,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.08661463831667311,56,,-0.06647988253495984,0.282487045985125,0.5444555444555444,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.16469729761259727,56,,-0.032998708853146284,0.3532008689372075,0.23376623376623376,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.3110492784423918,35,,0.026294403597125166,0.5806499155665593,0.05194805194805195,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_close,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.3158692416910319,35,,0.06479590947236802,0.528809872075662,0.07792207792207792,1000,1000,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,level_same,S_t versus P_t,pearson,-0.004526761239110723,56,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,level_same,S_t versus P_t,spearman,-0.058285140060058506,56,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,pearson,-0.00048540028013062424,35,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,change_same,Delta S_t versus Delta P_t,spearman,-0.14191651322949436,35,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),pearson,0.09314695284209218,56,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,level_to_next_change,S_t versus Delta P_(t+1),spearman,0.026542766512587135,56,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),pearson,0.21954986171951785,35,,,,,0,0,7,True,False,,False
+5,Defense Spending and Military Security,topic_sentiment,p_mean,change_to_next_change,Delta S_t versus Delta P_(t+1),spearman,0.10873972186284767,35,,,,,0,0,7,True,False,,False

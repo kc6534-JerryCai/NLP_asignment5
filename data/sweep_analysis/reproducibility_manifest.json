@@ -1,0 +1,16 @@
+{
+  "random_seed": 42,
+  "bootstrap_repetitions": 1000,
+  "bootstrap_block_days": 7,
+  "files_sha256": {
+    "data/polymarket/hourly_sweep_prices.csv": "3e90164fbf0edf6dda231ea86e26128905123760fb62c53c3675fa484bfde5a1",
+    "data/polymarket/daily_sweep_probability.csv": "908d1fcb61b0dfb0164072a9c513af323a17977360e9693c060c97d6f9184da8",
+    "data/sweep_analysis/aligned_daily_indices.csv": "1867d4bd4c160967e0ab83c01c226256be501aec3ffdf82f519a5d9d5e5c7e48",
+    "data/sweep_analysis/alignment_coverage_summary.csv": "4ed76e2d3bbb1c3754c1f3c088752104d88cd396596d0530d7d5cae9c533290a",
+    "data/sweep_analysis/correlation_results.csv": "2e73c273d419ef46bc17f65ec080de60a3ff1a39e59c447af8fa7eb2b9b19fc7",
+    "data/sweep_analysis/walk_forward_predictions.csv": "8817e7b493cac7a40c70f8dc5dc763ab336f94f6c82a850fd3960694fb3d1215",
+    "data/sweep_analysis/walk_forward_metrics.csv": "98b919ed9bdcfe62140902f1ac24c827952da273755ae8e82a1b284d6a40a04a",
+    "data/sweep_analysis/weekly_correlation_results.csv": "31f4b8cda2b243d2a1edcf26e2fc370d40989e7019e74d536a0008fb849f4f9c"
+  },
+  "note": "Repeated local execution produced identical hashes for these core outputs."
+}

@@ -1,0 +1,41 @@
+{
+  "validation_status": "pass",
+  "checks": {
+    "ticker_date_unique": true,
+    "returns_within_requested_dates": true,
+    "positive_adjustment_factors": true,
+    "adjusted_open_close_formula_exact": true,
+    "stock_minus_spy_interval_exact": true,
+    "no_close_to_close_return_across_missing_prior_stock_day": true,
+    "window_end_precedes_target_open": true,
+    "no_news_at_or_after_window_end": true,
+    "missing_signals_remain_nan": true,
+    "full_global_fdr_coverage": true,
+    "oos_training_targets_precede_prediction": true,
+    "all_mapped_tickers_in_frozen_universe": true,
+    "all_testable_tickers_have_returns": true
+  },
+  "counts": {
+    "return_rows": 65318,
+    "testable_stocks": 998,
+    "preopen_signal_rows": 1560,
+    "main_valid_tests": 9976,
+    "main_q_values": 9976,
+    "oos_prediction_rows": 148606
+  },
+  "diagnostics": {
+    "max_open_close_formula_abs_error": 0.0,
+    "max_stock_minus_spy_abs_error": 0.0,
+    "cross_missing_day_return_violations": 0
+  },
+  "manual_recalculation": {
+    "ticker": "NVDA",
+    "topic_id": 2,
+    "index_type": "democrat_stance",
+    "N": 39,
+    "independent_beta": 0.005726058884215643,
+    "reported_beta": 0.005726058884215644,
+    "absolute_difference": 8.673617379884035e-19,
+    "pass": true
+  }
+}

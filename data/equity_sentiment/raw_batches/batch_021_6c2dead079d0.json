@@ -1,0 +1,37 @@
+{
+  "batch": 21,
+  "tickers": [
+    "LBTYA",
+    "LBTYK",
+    "LEN-B",
+    "LINE",
+    "LLYVA",
+    "LOAR",
+    "MFP"
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "at_utc": "2026-10-10T19:01:37.076325+00:00",
+      "requested_tickers": [
+        "LBTYA",
+        "LBTYK",
+        "LEN-B",
+        "LINE",
+        "LLYVA",
+        "LOAR",
+        "MFP"
+      ],
+      "returned_tickers": [
+        "LBTYA",
+        "LBTYK",
+        "LEN-B",
+        "LINE",
+        "LLYVA",
+        "LOAR",
+        "MFP"
+      ],
+      "error": null
+    }
+  ]
+}

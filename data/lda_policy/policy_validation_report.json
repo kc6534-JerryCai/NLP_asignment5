@@ -1,0 +1,15 @@
+{
+  "validation_status": "pass",
+  "effective_policy_articles": 226,
+  "article_probability_rows": 226,
+  "unique_article_ids": 226,
+  "article_ids_aligned": true,
+  "topic_probability_column_count": 6,
+  "max_article_probability_sum_error": 1.4786201063543558e-07,
+  "max_daily_attention_sum_error": 1.2907548785356937e-07,
+  "empty_bow_count": 0,
+  "saved_model_reloaded": true,
+  "saved_dictionary_reloaded": true,
+  "saved_phrase_model_reloaded": true,
+  "reloaded_inference_probability_sum": 1.0
+}

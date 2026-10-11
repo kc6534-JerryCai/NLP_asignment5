@@ -1,0 +1,37 @@
+project:
+  returns: data/equity_sentiment/adjusted_equity_returns.csv
+  signals: data/equity_sentiment/preopen_news_signals.csv
+  main_tests: data/equity_sentiment/main_univariate_tests.csv
+  fdr_significant: data/equity_sentiment/fdr_significant_results.csv
+  bootstrap_supported: data/equity_sentiment/fdr_significant_bootstrap_supported.csv
+  output_dir: data/equity_sentiment/midterm_basket
+  figure_dir: figures/equity_sentiment
+
+baskets:
+  minimum_components: 3
+  top_n: 20
+  variants:
+    - fdr_union_long
+    - bootstrap_union_long
+    - fdr_signal_long
+    - bootstrap_signal_long
+    - bootstrap_top20_long
+    - bootstrap_signal_directional
+    - bootstrap_top20_directional
+
+regression:
+  minimum_observations: 30
+  hac_maxlags: 5
+  block_bootstrap_length: 5
+  block_bootstrap_repetitions: 1000
+  random_seed: 42
+  fdr_alpha: 0.05
+
+holdout:
+  enabled: true
+  training_fraction: 0.60
+  minimum_selection_observations: 15
+  minimum_validation_observations: 8
+  top_n: 20
+  within_signal_selection_fdr: 0.05
+

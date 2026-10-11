@@ -1,0 +1,91 @@
+﻿topic_id,english_name,chinese_name,rank,keyword,weight
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,1,ai,0.016493327915668488
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,2,datacenter,0.005736079532653093
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,3,china,0.005205030553042889
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,4,company,0.004035041201859713
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,5,public,0.003949277568608522
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,6,family,0.003524648491293192
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,7,technology,0.00326564721763134
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,8,center,0.003032144159078598
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,9,high,0.00289394473657012
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,10,school,0.002884497633203864
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,11,bill,0.002804793184623122
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,12,action,0.0027566212229430676
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,13,power,0.002714617643505335
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,14,industry,0.002703050384297967
+0,"AI, Datacenters, and Digital Governance",AI、数据中心与数字治理,15,ask,0.002603514352813363
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,1,construction,0.007693181280046701
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,2,federal,0.006860918831080198
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,3,city,0.005736588034778833
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,4,plan,0.005674279760569334
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,5,agency,0.005219724960625172
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,6,job,0.0051619079895317554
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,7,cbp,0.004831607453525066
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,8,big_bend,0.0043561882339417934
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,9,grant,0.0039945077151060104
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,10,town,0.003884178353473544
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,11,july,0.003675508312880993
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,12,property,0.003144241403788328
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,13,rate,0.003137633902952075
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,14,wall,0.0030827345326542854
+1,"Infrastructure, Public Lands, and Federal Investment",基础设施、公共土地与联邦投资,15,land,0.0030757798813283443
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,1,tariff,0.013930557295680046
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,2,canada,0.006458634976297617
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,3,ukraine,0.004695689305663109
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,4,trade,0.0038268035277724266
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,5,vaccine,0.0034188649151474237
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,6,court,0.0033093641977757215
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,7,law,0.003305831691250205
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,8,russia,0.003304853104054928
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,9,kennedy,0.003273830283433199
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,10,bill,0.003266827668994665
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,11,fire,0.0031362310983240604
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,12,policy,0.0031135824974626303
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,13,change,0.0030414285138249397
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,14,israel,0.002987783635035157
+2,"Trade, Public Health, and Legal Rights",贸易、公共卫生与法律权利,15,world,0.0029128361493349075
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,1,iran,0.02483859285712242
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,2,war,0.008236274123191833
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,3,attack,0.007830241695046425
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,4,iranian,0.0070108212530612946
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,5,israel,0.006641601212322712
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,6,military,0.005668305326253176
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,7,strike,0.005353914108127356
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,8,tehran,0.005204250104725361
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,9,conflict,0.004686754662543535
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,10,strait,0.004312774166464806
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,11,force,0.004254088271409273
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,12,oil,0.0041520255617797375
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,13,strait_hormuz,0.004000229761004448
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,14,continue,0.003874800866469741
+3,"Iran War, Oil, and Energy Security",伊朗战争、石油与能源安全,15,talk,0.003829283406957984
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,1,child,0.005773336626589298
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,2,investment,0.004882619250565767
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,3,immigration,0.004686096217483282
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,4,ice,0.004317198880016804
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,5,company,0.0042918361723423
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,6,policy,0.003940077032893896
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,7,fund,0.0038933230098336935
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,8,rate,0.003801449667662382
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,9,immigrant,0.0037589401472359896
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,10,grant,0.003702303161844611
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,11,business,0.0033161796163767576
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,12,defense,0.003205039771273732
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,13,inflation,0.003162162145599723
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,14,high,0.003149720374494791
+4,"Immigration, Public Funding, and Household Economy",移民、公共资金与家庭经济,15,miller,0.00302446773275733
+5,Defense Spending and Military Security,国防开支与军事安全,1,war,0.01974913291633129
+5,Defense Spending and Military Security,国防开支与军事安全,2,iran,0.011831148527562618
+5,Defense Spending and Military Security,国防开支与军事安全,3,hegseth,0.008863267488777637
+5,Defense Spending and Military Security,国防开支与军事安全,4,pentagon,0.00881992932409048
+5,Defense Spending and Military Security,国防开支与军事安全,5,military,0.008673395030200481
+5,Defense Spending and Military Security,国防开支与军事安全,6,service_member,0.006361993961036205
+5,Defense Spending and Military Security,国防开支与军事安全,7,kill,0.005533873103559017
+5,Defense Spending and Military Security,国防开支与军事安全,8,city,0.00511310575529933
+5,Defense Spending and Military Security,国防开支与军事安全,9,conflict,0.0047049690037965775
+5,Defense Spending and Military Security,国防开支与军事安全,10,resolution,0.004570842254906893
+5,Defense Spending and Military Security,国防开支与军事安全,11,defense_secretary,0.0043105194345116615
+5,Defense Spending and Military Security,国防开支与军事安全,12,iran_war,0.004287737887352705
+5,Defense Spending and Military Security,国防开支与军事安全,13,san_diego,0.003931170795112848
+5,Defense Spending and Military Security,国防开支与军事安全,14,navy,0.0036556655541062355
+5,Defense Spending and Military Security,国防开支与军事安全,15,war_iran,0.003637077286839485

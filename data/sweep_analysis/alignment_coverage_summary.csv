@@ -1,0 +1,25 @@
+﻿index_type,topic_id,topic_name,calendar_days,index_observed_days,index_missing_days,market_valid_days,joint_level_days,joint_adjacent_change_days,low_sample_days,effective_article_day_sum,complete_days,index_missing_only_days,market_missing_only_days,market_stale_only_days,combined_missing_days
+democrat_stance,0,"AI, Datacenters, and Digital Governance",92,11,81,92,11,1,92,13.0,11,81,0,0,0
+democrat_stance,1,"Infrastructure, Public Lands, and Federal Investment",92,14,78,92,14,2,92,16.0,14,78,0,0,0
+democrat_stance,2,"Trade, Public Health, and Legal Rights",92,48,44,92,48,30,88,68.0,48,44,0,0,0
+democrat_stance,3,"Iran War, Oil, and Energy Security",92,16,76,92,16,6,91,23.0,16,76,0,0,0
+democrat_stance,4,"Immigration, Public Funding, and Household Economy",92,35,57,92,35,16,91,42.0,35,57,0,0,0
+democrat_stance,5,Defense Spending and Military Security,92,22,70,92,22,5,89,31.0,22,70,0,0,0
+republican_stance,0,"AI, Datacenters, and Digital Governance",92,12,80,92,12,3,92,16.0,12,80,0,0,0
+republican_stance,1,"Infrastructure, Public Lands, and Federal Investment",92,19,73,92,19,4,92,20.0,19,73,0,0,0
+republican_stance,2,"Trade, Public Health, and Legal Rights",92,63,29,92,63,46,82,107.0,63,29,0,0,0
+republican_stance,3,"Iran War, Oil, and Energy Security",92,40,52,92,40,21,89,57.0,40,52,0,0,0
+republican_stance,4,"Immigration, Public Funding, and Household Economy",92,47,45,92,47,23,89,68.0,47,45,0,0,0
+republican_stance,5,Defense Spending and Military Security,92,38,54,92,38,19,89,52.0,38,54,0,0,0
+topic_attention,0,"AI, Datacenters, and Digital Governance",92,79,13,92,79,69,52,226.0,79,13,0,0,0
+topic_attention,1,"Infrastructure, Public Lands, and Federal Investment",92,79,13,92,79,69,52,226.0,79,13,0,0,0
+topic_attention,2,"Trade, Public Health, and Legal Rights",92,79,13,92,79,69,52,226.0,79,13,0,0,0
+topic_attention,3,"Iran War, Oil, and Energy Security",92,79,13,92,79,69,52,226.0,79,13,0,0,0
+topic_attention,4,"Immigration, Public Funding, and Household Economy",92,79,13,92,79,69,52,226.0,79,13,0,0,0
+topic_attention,5,Defense Spending and Military Security,92,79,13,92,79,69,52,226.0,79,13,0,0,0
+topic_sentiment,0,"AI, Datacenters, and Digital Governance",92,24,68,92,24,8,89,34.0,24,68,0,0,0
+topic_sentiment,1,"Infrastructure, Public Lands, and Federal Investment",92,30,62,92,30,13,92,34.0,30,62,0,0,0
+topic_sentiment,2,"Trade, Public Health, and Legal Rights",92,74,18,92,74,61,70,159.0,74,18,0,0,0
+topic_sentiment,3,"Iran War, Oil, and Energy Security",92,56,36,92,56,36,77,114.0,56,36,0,0,0
+topic_sentiment,4,"Immigration, Public Funding, and Household Economy",92,62,30,92,62,44,77,122.0,62,30,0,0,0
+topic_sentiment,5,Defense Spending and Military Security,92,56,36,92,56,35,87,93.0,56,36,0,0,0

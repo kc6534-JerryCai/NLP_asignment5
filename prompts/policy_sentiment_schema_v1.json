@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianPolicySentimentAnnotation",
+  "type": "object",
+  "required": ["article_id", "topics"],
+  "properties": {
+    "article_id": {"type": "string"},
+    "topics": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "topic_id", "topic_name", "relevant", "subissue", "sentiment_target",
+          "topic_sentiment_label", "topic_sentiment_score", "topic_sentiment_evidence",
+          "democrat_stance_label", "democrat_stance_score", "democrat_evidence",
+          "republican_stance_label", "republican_stance_score", "republican_evidence",
+          "speaker_type", "speaker_name", "ambiguity_note"
+        ],
+        "properties": {
+          "topic_id": {"type": "integer", "minimum": 0, "maximum": 5},
+          "topic_name": {"type": "string"},
+          "relevant": {"type": "boolean"},
+          "subissue": {"type": "string"},
+          "sentiment_target": {"type": "string"},
+          "topic_sentiment_label": {"type": ["string", "null"]},
+          "topic_sentiment_score": {"type": ["integer", "null"], "enum": [-1, 0, 1, null]},
+          "topic_sentiment_evidence": {"type": "string"},
+          "democrat_stance_label": {"type": "string"},
+          "democrat_stance_score": {"type": ["integer", "null"], "enum": [-1, 0, 1, null]},
+          "democrat_evidence": {"type": "string"},
+          "republican_stance_label": {"type": "string"},
+          "republican_stance_score": {"type": ["integer", "null"], "enum": [-1, 0, 1, null]},
+          "republican_evidence": {"type": "string"},
+          "speaker_type": {"type": "string", "enum": ["author", "quoted_person", "multiple_voices", "unclear"]},
+          "speaker_name": {"type": "string"},
+          "ambiguity_note": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

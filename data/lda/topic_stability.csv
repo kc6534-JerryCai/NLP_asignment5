@@ -1,0 +1,21 @@
+﻿base_random_state,comparison_random_state,base_topic_id,matched_topic_id,cosine_similarity_full_vocabulary,top15_keyword_jaccard,matching_method
+42,7,0,1,0.7425899505615234,0.5,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,1,5,0.8508195281028748,0.42857142857142855,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,2,9,0.8274282813072205,0.42857142857142855,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,3,4,0.928141176700592,0.5789473684210527,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,4,8,0.7162807583808899,0.30434782608695654,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,5,7,0.6360473036766052,0.15384615384615385,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,6,2,0.6194238066673279,0.1111111111111111,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,7,6,0.931031346321106,0.6666666666666666,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,8,0,0.8447872400283813,0.5789473684210527,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,7,9,3,0.872977077960968,0.42857142857142855,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,0,3,0.780024528503418,0.25,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,1,0,0.9511663317680359,0.5,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,2,9,0.6466573476791382,0.1111111111111111,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,3,6,0.930388331413269,0.5,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,4,2,0.7545558214187622,0.25,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,5,7,0.6661674976348877,0.1111111111111111,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,6,5,0.6880283355712891,0.15384615384615385,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,7,1,0.9498976469039917,0.6666666666666666,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,8,8,0.7027748227119446,0.30434782608695654,Hungarian assignment maximizing cosine similarity of full topic-word distributions
+42,99,9,4,0.7780977487564087,0.25,Hungarian assignment maximizing cosine similarity of full topic-word distributions

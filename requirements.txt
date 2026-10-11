@@ -1,0 +1,19 @@
+# LDA analysis dependencies. The preferred setup is environment.yml / Conda.
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+matplotlib>=3.9
+Pillow>=10.4
+httpx>=0.27
+requests>=2.32
+spacy>=3.8,<4
+gensim>=4.3,<5
+PyYAML>=6.0
+click>=8.0
+ipykernel>=6.29
+nbformat>=5.10
+nbconvert>=7.16
+yfinance>=1.7,<2
+
+# Install the English pipeline separately when not using Conda:
+# python -m spacy download en_core_web_sm

@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-10T19:36:43.005249+00:00",
+  "full_sample_baskets": 31,
+  "full_sample_valid_tests": 49,
+  "full_sample_fdr_significant": 28,
+  "full_sample_fdr_and_bootstrap_supported": 24,
+  "holdout_selection_end": "2026-09-02",
+  "holdout_validation_start": "2026-09-03",
+  "holdout_baskets": 42,
+  "holdout_valid_tests": 34,
+  "holdout_fdr_significant": 5,
+  "holdout_fdr_and_bootstrap_supported": 3,
+  "validation_status": "pass",
+  "warning": "Full-sample baskets are post-selection and do not provide independent confirmatory inference."
+}

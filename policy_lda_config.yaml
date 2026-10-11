@@ -1,0 +1,221 @@
+input_jsonl: data/guardian_news.jsonl
+base_config: lda_config.yaml
+output_dir: data/lda_policy
+model_dir: models/lda_policy
+figure_dir: figures/lda_policy
+
+date_range:
+  start_new_york: '2026-07-10'
+  end_new_york: '2026-10-09'
+
+selection:
+  random_seed: 20261010
+  # Applied after deterministic policy-scope screening.
+  manual_overrides:
+    us-news/2026/jul/16/trump-tv-address-thursday:
+      scope_flag: campaign_process
+      reason: article centers election-meddling claims and prospective contestation rather than a substantive policy
+    us-news/2026/jul/29/james-comey-secret-service-seashells-investigation-trump:
+      scope_flag: uncertain
+      reason: AI is incidental evidence in a criminal case rather than the subject of technology policy
+    us-news/2026/jul/29/anthony-fauci-senate-hearing-covid:
+      scope_flag: uncertain
+      reason: article centers an individual congressional hearing rather than public-health policy substance
+    us-news/2026/aug/06/fauci-senate-contempt-vote-covid:
+      scope_flag: uncertain
+      reason: article centers a contempt vote and institutional conflict rather than public-health policy substance
+    us-news/2026/aug/09/taylor-swift-songs-removed-trump-white-house-posts:
+      scope_flag: uncertain
+      reason: social-media term is incidental to a celebrity copyright dispute, not technology policy
+    us-news/2026/aug/29/democrats-uncommitted-movement-midterms:
+      scope_flag: campaign_process
+      reason: article centers electoral coalition movement and election outcomes
+    us-news/2026/sep/02/teamsters-union-republican-endorsement:
+      scope_flag: campaign_process
+      reason: article centers partisan endorsement rather than labor policy
+    us-news/2026/sep/05/pete-hegseth-pentagon-military:
+      scope_flag: uncertain
+      reason: article centers leadership competence and personnel controversy rather than defense policy
+    us-news/2026/sep/14/russian-oligarch-trump-jr-wedding:
+      scope_flag: uncertain
+      reason: article centers a private wedding and influence allegation rather than substantive foreign policy
+    us-news/2026/sep/16/georgia-senator-jon-ossoff-image:
+      scope_flag: campaign_process
+      reason: article centers candidate image and campaign communication rather than AI policy
+    technology/2026/sep/29/political-campaigns-ai-tools-spending:
+      scope_flag: campaign_process
+      reason: article centers campaign-tool adoption and spending rather than substantive AI governance
+
+preprocessing:
+  spacy_model: en_core_web_sm
+  spacy_batch_size: 24
+  min_token_length: 3
+  keep_short_tokens: [ai]
+  min_document_tokens: 30
+  phrase_min_count: 4
+  phrase_threshold: 8.0
+  no_below: 4
+  no_above: 0.75
+  # These terms were inspected in the full-discourse model. The election
+  # mechanics words are removed only in this policy-focused sensitivity model.
+  custom_stopwords:
+    - guardian
+    - reuters
+    - newsletter
+    - cookie
+    - advertisement
+    - say
+    - tell
+    - report
+    - write
+    - include
+    - year
+    - people
+    - time
+    - come
+    - think
+    - want
+    - like
+    - call
+    - new
+    - work
+    - country
+    - day
+    - week
+    - election
+    - elections
+    - midterm
+    - midterms
+    - campaign
+    - campaigns
+    - candidate
+    - candidates
+    - voter
+    - voters
+    - vote
+    - votes
+    - voting
+    - primary
+    - primaries
+    - race
+    - races
+    - run
+    - running
+    - win
+    - wins
+    - won
+    - poll
+    - polls
+    - ballot
+    - ballots
+    - seat
+    - seats
+    - president
+    - state
+    - government
+    - official
+    - political
+    - support
+    - issue
+    - american
+    - claim
+    - add
+    - lead
+    - month
+    - donald
+    - trump
+    - donald_trump
+    - trump_administration
+    - white_house
+    - democrat
+    - democrats
+    - democratic
+    - republican
+    - republicans
+    - party
+    - senate
+    - house
+    - congress
+    - congressional
+    - administration
+    - americans
+    - know
+    - accord
+    - white
+    - statement
+    - group
+    - need
+    - way
+    - long
+    - early
+    - record
+    - department
+    - senator
+  stopword_change_log:
+    ai: explicitly retained because the general three-character threshold otherwise deletes the policy-relevant acronym
+    election_process_terms: removed after inspection because they dominated the full-discourse model but do not distinguish substantive policy issues
+    policy_context_terms: president, Trump, party labels, chambers of Congress, state, government, official and similar context words were removed only after candidate-topic inspection showed that they merged otherwise distinct AI, health, trade and energy discussions; source text remains unchanged
+
+lda:
+  candidate_topics: [4, 5, 6, 7, 8]
+  selected_k: 6
+  random_state: 42
+  stability_seeds: [7, 99]
+  passes: 10
+  iterations: 100
+  alpha: auto
+  eta: auto
+  topn_keywords: 15
+  representative_articles: 10
+  candidate_representative_articles: 6
+  candidate_selection_notes:
+    4: compact but merges AI, domestic social policy, trade, and infrastructure into broad themes
+    5: slightly more detailed but still merges technology with foreign policy and social policy
+    6: recommended because it has the highest final coherence, very low keyword overlap, a distinct AI topic, and interpretable energy-security, defense, infrastructure, immigration, and regulatory themes
+    7: lower coherence and creates an unstable residual topic mixing prices, diesel, social policy, and local issues
+    8: finer health and defense splits but lower coherence and several small or internally mixed topics
+
+# Filled after inspection of candidate keywords and representative articles.
+topic_labels:
+  0:
+    english_name: AI, Datacenters, and Digital Governance
+    chinese_name: AI、数据中心与数字治理
+    definition: Artificial-intelligence regulation, datacenter infrastructure, technology investment, digital risks, and related education or privacy governance.
+    category: policy_or_social_issue
+    naming_basis: AI, datacenter, China, company, technology, power, and industry terms align with leading articles on AI regulation and infrastructure.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  1:
+    english_name: Infrastructure, Public Lands, and Federal Investment
+    chinese_name: 基础设施、公共土地与联邦投资
+    definition: Construction, border infrastructure, public lands, grants, employment, and federal or local investment decisions.
+    category: policy_or_social_issue
+    naming_basis: Construction, federal, city, plan, agency, grant, Big Bend, jobs, wall, and land characterize the representative articles.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  2:
+    english_name: Trade, Public Health, and Legal Rights
+    chinese_name: 贸易、公共卫生与法律权利
+    definition: A broad policy cluster combining tariffs and trade with vaccines, courts, abortion, sanctions, and rights-related regulation.
+    category: mixed_or_unclear
+    naming_basis: Tariff, Canada, trade, vaccine, court, law, bill, and policy terms recur across representative articles; this remains the least internally coherent final topic.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  3:
+    english_name: Iran War, Oil, and Energy Security
+    chinese_name: 伊朗战争、石油与能源安全
+    definition: Military escalation with Iran, diplomacy around the Strait of Hormuz, oil flows, and the resulting energy-security risks.
+    category: policy_or_social_issue
+    naming_basis: Iran, war, attack, strike, Strait of Hormuz, oil, diplomacy, and military terms dominate both keywords and representative articles.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  4:
+    english_name: Immigration, Public Funding, and Household Economy
+    chinese_name: 移民、公共资金与家庭经济
+    definition: Immigration enforcement and child impacts alongside public grants, investment, business, inflation, and household economic pressures.
+    category: mixed_or_unclear
+    naming_basis: Immigration, ICE, child, investment, fund, grant, business, rate, and inflation terms define this broad domestic-policy cluster.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  5:
+    english_name: Defense Spending and Military Security
+    chinese_name: 国防开支与军事安全
+    definition: Defense budgets, Pentagon management, service-member safety, military readiness, and the domestic costs of conflict.
+    category: policy_or_social_issue
+    naming_basis: Pentagon, military, service member, defense, resolution, war costs, and security-related representative articles distinguish this topic from the broader Iran-energy topic.
+    naming_status: provisional_human_interpretation_pending_confirmation

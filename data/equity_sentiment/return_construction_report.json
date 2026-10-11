@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-10-10T19:21:54.323402+00:00",
+  "input_rows": 71342,
+  "input_duplicate_keys_removed": 0,
+  "study_trading_days": 65,
+  "first_trading_day": "2026-07-10",
+  "last_trading_day": "2026-10-09",
+  "frozen_stocks": 1000,
+  "testable_stocks": 998,
+  "benchmark": "SPY",
+  "return_definition": "adjusted_close / (open * Adj Close / Close) - 1; stock return minus identical SPY interval",
+  "close_to_close_missing_rule": "previous value is the immediately prior SPY trading-day row; a missing stock row makes the return missing"
+}

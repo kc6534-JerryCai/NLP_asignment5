@@ -1,0 +1,298 @@
+input_jsonl: data/guardian_news.jsonl
+output_dir: data/lda
+model_dir: models/lda
+figure_dir: figures/lda
+
+date_range:
+  start_new_york: '2026-07-10'
+  end_new_york: '2026-10-09'
+
+selection:
+  random_seed: 20261010
+  review_relevant_sample: 20
+  review_uncertain_sample: 25
+  review_world_sample: 15
+  review_football_sample: 10
+  # Explicit overrides are applied after deterministic screening. Each entry
+  # must contain decision: relevant|uncertain|irrelevant and a concise reason.
+  manual_overrides:
+    sport/2026/aug/20/michele-tafoya-minnesota-us-senate-election:
+      decision: relevant
+      reason: article profiles a declared Minnesota US Senate candidate and her election campaign
+    world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro:
+      decision: irrelevant
+      reason: article centers Brazil's presidential election, not the US midterms
+    world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician:
+      decision: uncertain
+      reason: US civil-liberties angle is material but the connection to the midterms is indirect
+    world/2026/sep/01/us-trump-rubio-meddling-brazil-election:
+      decision: uncertain
+      reason: article concerns US interference in Brazil's election rather than the US midterms
+    football/2026/jul/27/gianni-infantino-donald-trump-jamie-raskin:
+      decision: uncertain
+      reason: congressional oversight is material but the article centers FIFA governance rather than the midterms
+    football/2026/jul/30/fifa-sale-congress-investigation-trump-ties:
+      decision: relevant
+      reason: article explicitly links a possible congressional investigation to Democrats reclaiming the House in November
+    news/2026/sep/11/corrections-and-clarifications:
+      decision: irrelevant
+      reason: corrections column only contains incidental political terms and is not a substantive article
+    commentisfree/2026/aug/01/biohacker-bryan-johnson-girlfriend-menstrual-blood:
+      decision: irrelevant
+      reason: lifestyle commentary has only an incidental political keyword hit
+    uk-news/2026/oct/02/drumcree-talks-no-agreement-northern-ireland:
+      decision: irrelevant
+      reason: Northern Ireland parade dispute is not about the US midterms
+    us-news/2026/aug/31/george-santos-kalshi-lifetime-ban:
+      decision: uncertain
+      reason: story concerns a former politician on a prediction platform; current election relevance is indirect
+    us-news/2026/sep/22/trump-says-relations-better-with-burnham-than-starmer-after-first-face-to-face-meeting:
+      decision: uncertain
+      reason: bilateral UK-US meeting has no central midterm or congressional-election focus
+    us-news/2026/sep/26/potential-2028-democratic-presidential-candidates-ai:
+      decision: uncertain
+      reason: article explicitly concerns the 2028 presidential field rather than the 2026 midterms
+    world/2026/jul/11/ukraine-war-briefing-zelenskyy-long-range-impact-command-russian-energy-strikes:
+      decision: irrelevant
+      reason: Ukraine war roundup has no central US midterm focus
+    world/2026/jul/24/poland-rightwing-opposition-splits-loyalty-pledge-ultimatum-mateusz-morawiecki:
+      decision: irrelevant
+      reason: article concerns Poland's parliamentary election rather than the US midterms
+    world/2026/sep/10/thursday-briefing-68-facts-about-the-bayeux-tapestry-as-it-goes-on-display:
+      decision: irrelevant
+      reason: general briefing centers the Bayeux tapestry and only incidentally matches political terms
+  manual_review_all_generated_sample: true
+  # IDs in the generated manual-review list that were actually inspected.
+  manual_reviewed_ids:
+    - australia-news/2026/aug/05/afternoon-update-wednesday-ntwnfb
+    - australia-news/2026/jul/21/morning-mail-tuesday-ntwnfb
+    - australia-news/2026/oct/07/morning-mail-wednesday-ntwnfb
+    - australia-news/2026/sep/17/morning-mail-thursday-ntwnfb
+    - australia-news/2026/sep/24/morning-mail-thursday-ntwnfb
+    - culture/2026/oct/01/jimmy-kimmel-trump-ai
+    - film/2026/aug/12/steal-this-story-please-review-amy-goodman-democracy-now-documentary
+    - film/2026/jul/10/lawyers-legally-blonde-elle-woods
+    - film/2026/oct/03/a-statement-film-review
+    - film/2026/sep/02/george-clooney-defends-mark-ruffalo-paramount-warner-bros-merger
+    - film/2026/sep/08/state-handouts-10000-lasers-and-trumps-election-six-things-we-learned-from-the-elon-musk-film
+    - football/2026/aug/01/gianni-infantino-fifa-world-cup-sell-off-plans-scrapped-reaction-uefa-football
+    - football/2026/aug/03/wales-become-first-nation-to-drop-support-for-fifa-president-gianni-infantino
+    - football/2026/aug/07/mexico-argentina-gianni-infantino-deepen-football-civil-war-fifa
+    - football/2026/aug/11/gianni-infantino-opponents-world-football-fifa-uefa
+    - football/2026/aug/18/israel-withdraws-support-for-embattled-fifa-president-gianni-infantino
+    - football/2026/aug/20/gianni-infantino-eyes-junior-tournament-dominican-republic-route-out-of-fifa-crisis
+    - football/2026/jul/30/fifa-wants-more-money-for-its-members-but-that-does-not-guarantee-investment
+    - football/2026/jul/31/uefa-fifa-battle-for-football-future-world-cup-infantino
+    - football/2026/oct/08/victor-montagliani-concacaf-reelection-fifa-presidency
+    - football/2026/sep/22/gianni-infantino-fifa-president-election-world-cup-sell-off-debacle
+    - commentisfree/2026/aug/01/biohacker-bryan-johnson-girlfriend-menstrual-blood
+    - commentisfree/2026/aug/07/trump-scientific-research-universities
+    - commentisfree/2026/oct/06/pedro-sanchez-snap-election-spain-economy-green-transition-progressives
+    - commentisfree/2026/sep/12/trump-voters-woman
+    - commentisfree/2026/sep/17/paid-influencers-us-politics-transparency
+    - commentisfree/2026/sep/28/abortion-bans-republicans
+    - sport/2026/aug/20/michele-tafoya-minnesota-us-senate-election
+    - sport/2026/aug/25/enes-kanter-freedom-transgender-wnba-natasha-cloud-trump
+    - sport/2026/jul/11/caitlin-clark-trump-wnba-doj-culture-war
+    - sport/2026/oct/02/clay-travis-sport-and-state
+    - sport/2026/oct/08/indiana-fever-and-the-magasphere-a-wnba-teams-dangerous-path-to-popularity
+    - sport/2026/oct/09/mike-ditka-dies-86-chicago-bears
+    - technology/2026/jul/15/elon-musk-wisconsin-election-payments
+    - technology/2026/sep/29/political-campaigns-ai-tools-spending
+    - australia-news/2026/jul/18/australian-man-detained-ice-los-angeles-arrest-attempt-las-vegas-airport
+    - us-news/2026/aug/04/donald-trump-political-commentary
+    - us-news/2026/aug/04/todd-blanche-attorney-general-senate-committee-vote
+    - us-news/2026/aug/07/russia-sanctions-senate-passed-petroleum
+    - us-news/2026/aug/10/ilhan-omar-trump-ice-surveil-political-opponents
+    - us-news/2026/aug/13/uss-abraham-conditions-hegseth
+    - us-news/2026/aug/14/bulldozers-big-bend-national-park-trump
+    - us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment
+    - us-news/2026/aug/21/white-house-ballroom-construction-scotus
+    - us-news/2026/aug/25/hakeem-jeffries-defends-jared-kushner-meeting
+    - us-news/2026/aug/30/state-department-global-engagement-center-leaked-documents-foreign-propaganda
+    - us-news/2026/jul/14/graham-mcconnell-conspiracy-theories
+    - us-news/2026/jul/14/supreme-court-justices-security-budget
+    - us-news/2026/jul/17/justin-pearson-memphis-rally-progressive-democrat-aoc
+    - us-news/2026/jul/17/republicans-canada-sanctions-wildfire-smoke
+    - us-news/2026/jul/23/first-thing-us-agrees-saudi-uranium-deal-strikes-iran-yemen-houthis-hit-tankers
+    - us-news/2026/oct/02/big-bend-national-park-border-wall-halt
+    - us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar
+    - us-news/2026/oct/05/trump-super-pac-ads
+    - us-news/2026/oct/06/first-thing-donald-trump-iran-strikes-us-cities
+    - us-news/2026/oct/06/us-midterms-trump-republicans-democrats
+    - us-news/2026/sep/09/rhode-island-primary-results-dan-mckee
+    - us-news/2026/sep/10/jd-vance-republican-midterm-convention
+    - us-news/2026/sep/11/donald-trump-republican-midterm-convention
+    - us-news/2026/sep/24/mary-peltola-campaign-allegations
+    - us-news/2026/sep/27/todd-blanche-trump-white-house-media
+    - us-news/2026/sep/30/us-senate-stock-trades-bill
+    - world/2026/aug/06/thursday-briefing-is-this-the-final-whistle-for-gianni-infantino-at-fifa
+    - world/2026/aug/07/iran-war-trump-midterm-ballot
+    - world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro
+    - world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician
+    - world/2026/aug/20/trump-threatens-crush-iran-economy-war-hormuz
+    - world/2026/jul/10/berlin-mayor-abandons-reelection-campaign-after-tennis-gate-outcry
+    - world/2026/jul/13/monday-briefing-you-ask-the-questions-andy-beckett
+    - world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz
+    - world/2026/jul/15/venezuela-interim-government-opposition-talks-democracy-maria-corina-machado
+    - world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran
+    - world/2026/jul/29/iran-missile-attack-us-base-forces
+    - world/2026/jul/29/ukraine-war-briefing-wildberries-attacks-shake-russian-economy-and-banking
+    - world/2026/oct/05/monday-briefing-first-edition-us-midterms-donald-trump-washington
+    - world/2026/oct/05/spain-prime-minister-pedro-sanchez-snap-election-housing-crisis
+    - world/2026/sep/01/us-trump-rubio-meddling-brazil-election
+    - world/2026/sep/02/whats-really-behind-trumps-deference-to-putin
+    - world/2026/sep/08/will-uk-sanctions-have-any-impact-on-israel-settler-terrorists-west-bank
+    - world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq
+    - world/2026/sep/25/trump-tough-choices-iran-accelerated-deal-reopen-hormuz-midterm-elections
+
+preprocessing:
+  spacy_model: en_core_web_sm
+  spacy_batch_size: 24
+  min_token_length: 3
+  min_document_tokens: 30
+  phrase_min_count: 5
+  phrase_threshold: 10.0
+  no_below: 5
+  no_above: 0.8
+  # Conservative additions only. Party, person, institution and policy terms
+  # are intentionally not removed.
+  custom_stopwords:
+    - guardian
+    - reuters
+    - newsletter
+    - cookie
+    - advertisement
+    - say
+    - tell
+    - report
+    - write
+    - include
+    - year
+    - people
+    - time
+    - come
+    - think
+    - want
+    - like
+    - call
+    - new
+    - work
+    - country
+    - day
+    - week
+  custom_stopword_log:
+    guardian: publisher boilerplate rather than article subject
+    reuters: wire-service attribution rather than article subject
+    newsletter: page/newsletter template language
+    cookie: web template language
+    advertisement: web template language
+    say: high-frequency reporting verb with low topical specificity
+    tell: high-frequency reporting verb with low topical specificity
+    report: high-frequency reporting verb with low topical specificity
+    write: high-frequency attribution verb with low topical specificity
+    include: generic enumeration verb that appeared across otherwise unrelated topics
+    year: generic time word that appeared across otherwise unrelated topics
+    people: generic noun that appeared across otherwise unrelated topics
+    time: generic time word with low topical specificity
+    come: generic verb with low topical specificity
+    think: generic speech/cognition verb with low topical specificity
+    want: generic preference verb with low topical specificity
+    like: generic comparison/speech word with low topical specificity
+    call: generic reporting/action verb with low topical specificity
+    new: generic modifier with low topical specificity
+    work: generic activity verb/noun with low topical specificity
+    country: generic geography noun that did not distinguish policy topics
+    day: generic time word with low topical specificity
+    week: generic time word with low topical specificity
+
+lda:
+  candidate_topics: [5, 8, 10]
+  selected_k: 10
+  random_state: 42
+  stability_seeds: [7, 99]
+  passes: 10
+  iterations: 100
+  alpha: auto
+  eta: auto
+  topn_keywords: 15
+  representative_articles: 10
+  candidate_representative_articles: 5
+  candidate_selection_notes:
+    5: compact model but representative articles combined several substantively distinct issues and keyword overlap was highest
+    8: lower coherence and less clear separation in representative articles
+    10: recommended because it had the highest final coherence, the lowest mean keyword overlap, and clearer separation of election administration, electoral competition, the economy, war, public health, and congressional activity
+
+# Filled after candidate-model interpretation. Names are human interpretations,
+# not direct model output.
+topic_labels:
+  0:
+    english_name: Senate Succession and Political Movements
+    chinese_name: 参议院继任与政治运动
+    definition: Candidate succession, political movements, and their effects on party competition in Senate and congressional races.
+    category: campaign_process_or_election_strategy
+    naming_basis: Graham succession coverage and articles on progressive movements and candidates dominate the representative set.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  1:
+    english_name: Iran War and Foreign Policy
+    chinese_name: 伊朗战争与外交政策
+    definition: US military action, diplomacy, and political consequences surrounding Iran and the wider Middle East.
+    category: policy_or_social_issue
+    naming_basis: Iran, war, attack, military, strike, and diplomacy terms align with the highest-probability articles.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  2:
+    english_name: Justice Department and Executive Oversight
+    chinese_name: 司法部与行政监督
+    definition: Appointments, hearings, investigations, and institutional checks involving the Justice Department and executive branch.
+    category: mixed_or_unclear
+    naming_basis: Todd Blanche hearings and Justice Department oversight lead the representative articles, with some adjacent institutional disputes.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  3:
+    english_name: Election Administration and Voting Rights
+    chinese_name: 选举管理与投票权
+    definition: Federal and state control of election rules, ballots, monitoring, and voting access.
+    category: campaign_process_or_election_strategy
+    naming_basis: Election, voter, ballot, voting, court, and rule terms match articles on federal election powers and mail voting.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  4:
+    english_name: Political Culture and Executive Conduct
+    chinese_name: 政治文化与行政行为
+    definition: Public controversy over presidential rhetoric, authoritarian conduct, gender, media symbolism, and political spectacle.
+    category: mixed_or_unclear
+    naming_basis: Representative articles center cultural backlash and executive conduct, but the topic is substantively broad.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  5:
+    english_name: White House Personnel and Information Authority
+    chinese_name: 白宫人事与信息权力
+    definition: Senior appointments, intelligence leadership, press operations, and disputes about official truth and legitimacy.
+    category: mixed_or_unclear
+    naming_basis: Intelligence and press appointments, White House personnel, and election-legitimacy claims lead the representative set.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  6:
+    english_name: Public Health and Political Accountability
+    chinese_name: 公共卫生与政治问责
+    definition: Public-health controversies and hearings linked to political careers, accountability, and campaigning.
+    category: mixed_or_unclear
+    naming_basis: Fauci hearings and health-policy articles dominate, alongside political biographies and accountability stories.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  7:
+    english_name: Primaries and Candidate Competition
+    chinese_name: 初选与候选人竞争
+    definition: Party primaries, candidate recruitment, ideological competition, and strategies for winning congressional races.
+    category: campaign_process_or_election_strategy
+    naming_basis: Democrats, campaign, voter, candidate, primary, and race terms align with the representative campaign articles.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  8:
+    english_name: Congress, Legislation, and Public Spending
+    chinese_name: 国会、立法与公共支出
+    definition: Congressional voting, funding bills, foreign aid, and legislative conflict between the parties.
+    category: policy_or_social_issue
+    naming_basis: House, Senate, bill, pass, funding, and vote terms characterize the representative articles.
+    naming_status: provisional_human_interpretation_pending_confirmation
+  9:
+    english_name: Economy, Tariffs, and Cost of Living
+    chinese_name: 经济、关税与生活成本
+    definition: Economic performance, trade and tariffs, inflation, prices, and affordability in the midterm context.
+    category: policy_or_social_issue
+    naming_basis: Tariff, economy, price, inflation, trade, rate, and cost terms align with the leading articles.
+    naming_status: provisional_human_interpretation_pending_confirmation

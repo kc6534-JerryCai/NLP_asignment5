@@ -1,0 +1,320 @@
+{
+  "downloaded_at_utc": "2026-10-10T19:21:43.171363+00:00",
+  "yfinance_version": "1.7.0",
+  "request": {
+    "start": "2026-07-01",
+    "end_exclusive": "2026-10-10",
+    "interval": "1d",
+    "auto_adjust": false,
+    "actions": true,
+    "repair": false
+  },
+  "frozen_stock_candidates": 1000,
+  "requested_total_including_benchmark_etfs": 1007,
+  "returned_total": 1006,
+  "returned_stocks": 999,
+  "missing_count": 1,
+  "benchmark_returned": true,
+  "sector_etfs_returned": [
+    "ITA",
+    "XLE",
+    "XLI",
+    "XLK",
+    "XLV",
+    "XLY"
+  ],
+  "duplicate_conflict_rows": 0,
+  "batches": [
+    {
+      "batch": 1,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_001_471a7e650e90.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.622164+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 2,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_002_f0a23976c7df.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.628166+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 3,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_003_b2f7aa1bcf3c.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.634166+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 4,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_004_b7c25b9f292d.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.641170+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 5,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_005_1889b846aeee.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.647164+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 6,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_006_45d73dd4653b.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.653168+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 7,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_007_101e729d169e.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.658163+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 8,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_008_328d0baacb17.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.664163+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 9,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_009_cf5d2df22c5c.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.670163+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 10,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_010_e8940242214a.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.676164+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 11,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_011_c772b9ee1295.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.681163+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 12,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_012_4bd17d56f935.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.687164+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 13,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_013_308ea667fb2c.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.694164+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 14,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_014_8671e1966686.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.703163+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 15,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_015_99021a21bda0.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.710167+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 16,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_016_c4a5b95a95c3.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.717177+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 17,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_017_6cd6bdb5dc2f.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.723178+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 18,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_018_bdaeab82200a.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.728689+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 19,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_019_906a0d95e50d.csv",
+      "requested": 50,
+      "returned": 50,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.734688+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 20,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_020_404e1bc7c1a0.csv",
+      "requested": 50,
+      "returned": 49,
+      "missing_tickers": [
+        "HOLX"
+      ],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.740688+00:00"
+        }
+      ]
+    },
+    {
+      "batch": 21,
+      "cache_file": "data\\equity_sentiment\\raw_batches\\batch_021_6c2dead079d0.csv",
+      "requested": 7,
+      "returned": 7,
+      "missing_tickers": [],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.743687+00:00"
+        }
+      ]
+    },
+    {
+      "batch": "missing_retry",
+      "cache_file": "data\\equity_sentiment\\raw_batches\\missing_retry_7e209fb1c556.csv",
+      "requested": 1,
+      "returned": 0,
+      "missing_tickers": [
+        "HOLX"
+      ],
+      "attempts": [
+        {
+          "cache_hit": true,
+          "at_utc": "2026-10-10T19:21:42.760695+00:00"
+        }
+      ]
+    }
+  ],
+  "data_source_note": "yfinance is an unofficial research wrapper for Yahoo Finance; data are for academic use and were validated locally."
+}

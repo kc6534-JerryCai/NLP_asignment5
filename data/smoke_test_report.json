@@ -1,0 +1,53 @@
+{
+  "tested_at_utc": "2026-10-10T14:44:25.440221Z",
+  "date_range": {
+    "from": "2026-07-10",
+    "to": "2026-10-09"
+  },
+  "query": {
+    "name": "midterm_elections",
+    "q": "\"midterm election\" OR \"midterm elections\" OR midterms"
+  },
+  "pages_checked": [
+    1,
+    2
+  ],
+  "records_checked": 4,
+  "body_present": 4,
+  "body_missing": 0,
+  "timestamps_with_new_york_conversion": 4,
+  "body_contains_html_tags": 0,
+  "pagination_confirmed": true,
+  "sample": [
+    {
+      "title": "Trump fires last members of election commission, inciting fears of midterm ‘chaos’",
+      "published_at_utc": "2026-07-10T01:18:22Z",
+      "published_at_new_york": "2026-07-09T21:18:22-04:00",
+      "url": "https://www.theguardian.com/us-news/2026/jul/09/trump-fires-election-commissioners",
+      "body_excerpt": "Donald Trump has terminated the remaining members of the independent, federal commission that assists election administration officials nationwide just a few months before the midterm elections, multiple outlets reported on Thursday. The re"
+    },
+    {
+      "title": "‘I was like, “Oh my god, I can be taken seriously”’: the women inspired to become lawyers by Legally Blonde",
+      "published_at_utc": "2026-07-10T05:46:56Z",
+      "published_at_new_york": "2026-07-10T01:46:56-04:00",
+      "url": "https://www.theguardian.com/film/2026/jul/10/lawyers-legally-blonde-elle-woods",
+      "body_excerpt": "‘My inner Elle Woods became the driving force behind everything’ Angela McCarthy, senior associate at Lawrence Stephens, London Elle made being a lawyer look really glamorous and exciting. But what really drew me in was that she made it loo"
+    },
+    {
+      "title": "First Thing: ICE agents ‘looking for someone else’ when they killed Lorenzo Salgado Araujo",
+      "published_at_utc": "2026-07-10T11:18:03Z",
+      "published_at_new_york": "2026-07-10T07:18:03-04:00",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/first-thing-ice-lorenzo-salgado-araujo-killed-houston",
+      "body_excerpt": "Good morning. Lorenzo Salgado Araujo, a man killed by federal immigration agents during a traffic stop in Houston this week, was not the intended target of the “enforcement operation”, the Department of Homeland Security (DHS) has said. Imm"
+    },
+    {
+      "title": "Trump accused of trying to ‘rig’ elections after firing federal commissioners",
+      "published_at_utc": "2026-07-10T16:27:33Z",
+      "published_at_new_york": "2026-07-10T12:27:33-04:00",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/trump-accused-election-rig-federal-commissioners-fired",
+      "body_excerpt": "Donald Trump has been accused of trying to “rig” the upcoming US midterm elections after he fired the last three members of an independent federal commission. Trump’s extraordinary move to paralyze the US Election Assistance Commission (EAC"
+    }
+  ],
+  "errors": [],
+  "requests_this_run": 2
+}
